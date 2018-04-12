@@ -1,0 +1,6 @@
+framework module Pods_OTBusinessModular_Example {
+  umbrella header "Pods-OTBusinessModular_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

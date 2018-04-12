@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTBusinessModular_Example' do
+  pod 'OTBusinessModular', :path => '../'
+
+  target 'OTBusinessModular_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

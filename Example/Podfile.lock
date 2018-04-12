@@ -1,0 +1,16 @@
+PODS:
+  - OTBusinessModular (0.1.0)
+
+DEPENDENCIES:
+  - OTBusinessModular (from `../`)
+
+EXTERNAL SOURCES:
+  OTBusinessModular:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OTBusinessModular: 606dce55a864d0183f43d4e6a9e73e32a8793bd0
+
+PODFILE CHECKSUM: 06e08c7d219e19bbbf447e74f82b842616c078fe
+
+COCOAPODS: 1.3.1

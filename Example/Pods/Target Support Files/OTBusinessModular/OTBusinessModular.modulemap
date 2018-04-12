@@ -1,0 +1,6 @@
+framework module OTBusinessModular {
+  umbrella header "OTBusinessModular-umbrella.h"
+
+  export *
+  module * { export * }
+}
