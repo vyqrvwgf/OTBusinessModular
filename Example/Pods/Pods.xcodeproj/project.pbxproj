@@ -7,61 +7,433 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C98EA764950FF61D06DA27075CE819D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		00EFBF7F3DF9E19790556F284F2B1984 /* OTMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C156BED16DFAD60300065D66A7B8E4 /* OTMacro.swift */; };
+		02CBBFE6990D2FFB677689594F0038FC /* OTHans.strings in Sources */ = {isa = PBXBuildFile; fileRef = 105D34E0E1D944171066D3FA63E90D0B /* OTHans.strings */; };
+		060DDD876DC8EDE6383B8A85640BE6A9 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA663571BE845B42FAF05B891A0684 /* ConstraintInsetTarget.swift */; };
+		060FDFF92F71F58166908D5450A3432B /* OTTourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B411C67416C7D7EDDD23ED310AB49 /* OTTourController.swift */; };
+		068E5740BBDFF0E81E0F38A280B558FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D780F44D6F576892383B0B639AA65 /* UIKit.framework */; };
+		072BD4D26C3F1628C02C1DD9CA890995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		08F487DA0C72BD6BC196B17AE79EA6AA /* OTBaseModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFCFA9BCB6125C67C8C1E068DB65B8 /* OTBaseModular-dummy.m */; };
+		0E318CEA0DC4CAA8E7DAAA73232B3739 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FA17CF2CE789AB01698C0395738A96 /* ConstraintLayoutGuide+Extensions.swift */; };
+		0FE5E09D816CB008238569032BACC0C6 /* OTImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E688F964922F90D2B880B2E85C1C /* OTImageExtension.swift */; };
+		114B08DEA0BB6F44277FC617B5C9DA97 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B93071F5EBCEEECDC0FA116DD32FD2 /* SnapKit-dummy.m */; };
+		137124E72758D64980A3FEDD4482E76B /* OTRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD647AF94B65F344C1C71C30F3336CC /* OTRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1446D658BB40B5F5B0C8F00A0ED43BA8 /* OTRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1DB375353BFE56B34B8F2B5BB58E /* OTRoute-dummy.m */; };
+		1537D40C80C153C8996867676661C6DD /* OTUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A617E1E928A345D9B619AA586904DD4 /* OTUIKit-dummy.m */; };
+		1C98EA764950FF61D06DA27075CE819D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		201A895FE9C16F087F9B88FE81B44E65 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE78D5E792577D4FEB620FCBAC36EB /* OTMacro.framework */; };
+		214E9C93F491D4A6740E52700622A4B7 /* WMPageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747E4113E3DFEF1410BFB3BA427DCEE7 /* WMPageController.framework */; };
+		22345437C966B935458F1801DD89D950 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E7CBD546907C4D37698960A4AC3D94 /* LayoutConstraintItem.swift */; };
+		242127DD9BDDD1C9CDCBDC625D15ADA4 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D67FBEBCB3CE5495250C7155F93952 /* WMScrollView.m */; };
+		2530E0D23E968893AED7BB4088599B60 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9299E4FC08019DD39A8F50BCE0C5D6 /* ConstraintViewDSL.swift */; };
+		25407C12BF864262A34E462838A5A1A1 /* WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = C09682FD55996A8A503B86AD6188A4DB /* WMPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25AA114988F4710C61D46CADCEE3D384 /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CE1A57642467B35F47716BFD9D1CC4 /* WMProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26AD5663725F06F7F539831D586992A9 /* OTExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AD69675D998C073AA941109ECC8A12 /* OTExtension.framework */; };
+		2A3DC79D056334E1886E85A98BC0DC2E /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC44B2ED26E8974F51B117B14023045 /* ConstraintRelatableTarget.swift */; };
+		2C0F52FB11726DF10FB1B80759826064 /* OTBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6804656FE7C702C59B2AC973781B81 /* OTBundleExtension.swift */; };
 		2F087042E0D4BA53DEEE07111FE0FCAA /* Pods-OTBusinessModular_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED44E15EF3EF641AA9219D1814849E /* Pods-OTBusinessModular_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		394DE425DB8EC6045E53243025101ECC /* Pods-OTBusinessModular_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3192013ECAD5695359461D932DA8CE /* Pods-OTBusinessModular_Example-dummy.m */; };
-		47524F4DA8B7A61D7920C66E95F80B2E /* Pods-OTBusinessModular_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F1214CEFD10A64D3DC2548A8DDF583 /* Pods-OTBusinessModular_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82200179879E23878D0E9EB6960895ED /* OTBusinessModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97354F34CD7C274C2D4A0159B267B00B /* OTBusinessModular-dummy.m */; };
-		9873FAD84DDD24F7A08D765ADD0071D8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB98862FC55D7079B93EF1FDAC4CADCA /* ReplaceMe.swift */; };
+		2FFABFE248587D9DBD189EA13B5E9EBF /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB800EDA83E84222102B987EB7B9E0D /* ConstraintMaker.swift */; };
+		3034CDFDE9988EE68ECE101B91F5DB27 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F423287268ADF60DC55ED82D6B4DF2 /* ConstraintMultiplierTarget.swift */; };
+		32B3F9431E5A80383960981562D5470D /* OTBaseModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F559DDF9B69526743E336787D93D59 /* OTBaseModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		334AC2758F9F69D6176540C19C65C8B1 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C437D6F4C474D2FFFFB41DFB57BEF /* WMPageController.m */; };
+		339C67C641DCF9ED51356FB0FA14356F /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35DC2BB1DF4CB5EE71373130094BC7 /* LayoutConstraint.swift */; };
+		35C0C8AEAF2CBCD566D515DDC8944946 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E530FB490B4712204A9417B55B878 /* ConstraintMakerPriortizable.swift */; };
+		3D32C04A13F06D34F4401241CC47EFF5 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0630E5D614AA5A7ED9AE3173C1FF5FC /* ConstraintConfig.swift */; };
+		3EFB550DDD900FC3150C658A46FB9C72 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7B7035599A92DEBD2DC1CD43A6012 /* Typealiases.swift */; };
+		3F9A6A0224502C76BC306EE1112B686A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		42639859805437D5BA97C9C263285939 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE78D5E792577D4FEB620FCBAC36EB /* OTMacro.framework */; };
+		455788F1FE7313EAB6739D84DDA60D4B /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7B315670F187A08EFD2266471825F /* ConstraintLayoutGuide.swift */; };
+		4592D52736EDADAEFCA9C31495778371 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40C40661B5288A7996FA3CDEB33111 /* ConstraintMakerRelatable.swift */; };
+		48ECD5574F193CC9CA9D893C17B47971 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D215E799B028DC8CE56B4A1CB51B5275 /* ConstraintMakerExtendable.swift */; };
+		4BBA224D513485120BD0AE661074D945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		4CC21AC91A2D92613B8E4A5063E92665 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BBEE29B3E83F1F845D9638CA86111A /* ConstraintLayoutSupport.swift */; };
+		4EF9CCEA1838EFB67DDB3C8D1CAB81DD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FF5BF682CABE883FBAA9B5BDC351CA /* SnapKit.framework */; };
+		50435B828C5F2FD6EED9B971475F8883 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB24DFDCB1ADD79983119F5457ED8B6B /* WMProgressView.m */; };
+		55B8754A275DFAA6654F787FC7370CA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B835A7D295B84748D30EC311C76B2A0F /* CoreGraphics.framework */; };
+		56AD49A5CCBE4AE336CEC97A29D558DE /* OTMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9793438C7C21D9FF323A5F476C6852D7 /* OTMacro-dummy.m */; };
+		5CF99C6EAACBD171EB7A5BEEC0592DB9 /* Root.plist in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C9B1E61A90283AE90A72C3FFECEC0 /* Root.plist */; };
+		60963009F01012C11BDE131E821FFEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		65F71522C14AD664AA2636DE6F12CCDE /* OTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B01B515E0F257F11D64BC1B34C8007 /* OTTextField.swift */; };
+		6A7F86360FC99341865663F60A59404B /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7BC655F58C40DF28F60F03BCC83794 /* ConstraintPriorityTarget.swift */; };
+		6B08B1D800F1C6E2A739862450D28FA0 /* OTUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67C9EEA98F868BDD85D70CC70295E5F /* OTUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2ED993B64E690DA79241B5EE9EB333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		6C3A8362DE86AA455E5600BD2DA0E2CC /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DAC1DC6E523C490AE334135D56486B /* ConstraintDSL.swift */; };
+		6C46EA7E3F09EB999C939F2EB371E0B1 /* Pods-OTBusinessModular_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F1214CEFD10A64D3DC2548A8DDF583 /* Pods-OTBusinessModular_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB5AFE9BF19B0BB9BD1428297736B41 /* WMMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF7B98CE5C534CB6A27561FFAB50051 /* WMMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C5954E8FF59B1FC18E07F5500A9B37 /* OTBusinessModular-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2B94DE7EE23B28F3A83A9FE51AF91 /* OTBusinessModular-dummy.m */; };
+		70C98C3FA735DBEC05C66230F9305CB6 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228FB1B078F7E8A2BC9CAD8AC477DB1 /* WMMenuView.m */; };
+		748B992F24CD5BB5CD0683DA3F32E3BD /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27566810946D843FFB56509FBC24C60 /* ConstraintRelation.swift */; };
+		7657C2BCE109D58D1FA4258E69BEC74B /* WMPageController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D13058548753C582A6E8CB77002BCD /* WMPageController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776741D95AEFB1DAB264E5DADCB4FBFF /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F6A7816FFA233167F47C0521FC2C6 /* ConstraintConstantTarget.swift */; };
+		79707F7D64912DE5837847BCFF56EC08 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A3487E7DD1380C2C28E6916C128DE /* Constraint.swift */; };
+		7EA032286ED29739C89E23C0D8C5F7E1 /* OTTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB568B0FFE0DB726A8800AB18B1AC0C /* OTTicketController.swift */; };
+		81054D57306CDE592C5DDEBA7198052D /* OTColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023EDF30F9FC2331C695F47437375206 /* OTColorExtension.swift */; };
+		810B4C66C87FE623F4D75DF89ECA5D71 /* language.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08EF91C6527B419A35CBD3CD8138370D /* language.bundle */; };
+		87A67D197D289FAB0A312637F9AB9891 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE78D5E792577D4FEB620FCBAC36EB /* OTMacro.framework */; };
+		8804A1B21B9B392A8C6BB0AB6E481409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		88833DD3A628D317EF53823CD013BD0B /* UIViewController+WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE293AD2A5A3095C856AC7BF6E9FE04 /* UIViewController+WMPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0173A670685D6D39DB7D9D481BA5C1 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 780CBA02214FD6BCC13CD22E146D17BD /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DDFBF0AD0584546E7EEFEE9BF19FFC8 /* WMMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 058D2B34B5FC3CB62566A4708110718D /* WMMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E076285A2DFF5A2419261560E94E4A5 /* Pods-OTBusinessModular_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3192013ECAD5695359461D932DA8CE /* Pods-OTBusinessModular_Example-dummy.m */; };
+		90ED612941A58B6AF4B5788D50839C6C /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1C704D50FDB86F117549DEBAB2340 /* Debugging.swift */; };
+		9363699D3EA711E41D76083A9D0697EF /* OTRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A6FC29331C376773667A38AF10F6F8 /* OTRoute.swift */; };
+		94D7F726A3E9AB639024829A4C015153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		970CCB5FCE928399104D495198BACD0E /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAF955C454F1E32F88193BE5C8D6EA /* ConstraintLayoutSupportDSL.swift */; };
+		98BA2C7F567A68F326EBD0E62694D400 /* OTExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AD69675D998C073AA941109ECC8A12 /* OTExtension.framework */; };
+		98FD128779E74819A8C4C19BB6700DF1 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBC28C1067FC1F49692943E5129CDA /* ConstraintAttributes.swift */; };
+		9D63094449C328977B592436C72323E4 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCCF326A06F7D7E1810C9080BBAD850 /* ConstraintItem.swift */; };
+		A0934E207411D6A5C49BAD3FDE7A3EB9 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE78D5E792577D4FEB620FCBAC36EB /* OTMacro.framework */; };
+		A16F48DA681ACF146250D2EFB56D45C9 /* OTBaseModular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB534A972F800DD0311B3C09E4A2FB2D /* OTBaseModular.framework */; };
+		A6F47DDCB2E0BF916141DF664A8933A6 /* OTBusinessModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C045554952C65D0D55422256A125F8 /* OTBusinessModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA89800DEF4362CBE03BDAC85B8817C5 /* OTUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F1BA61DC8EF891CD97BD64CC579500 /* OTUIKit.framework */; };
 		ACD4B357C13542940A7095245D3DF2A8 /* Pods-OTBusinessModular_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD187333BF938B938282AED2EB33F4 /* Pods-OTBusinessModular_Tests-dummy.m */; };
-		C10B8DA219F563A7CE1E8DC494FF96DF /* OTBusinessModular-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 282A80A4C84A0EC3E302299FFA7F710E /* OTBusinessModular-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDC9C9653B13C33143A19FF9717E3826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D3907225E74950A5C0E90EA15D7981D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B2025A1BF84221316B692CFF95765210 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81088FBD258784099DDCA63E124EDC52 /* ConstraintView+Extensions.swift */; };
+		B93241C1647A74BE72B5A8AC884B7368 /* OTBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B4CD4B4EE0DB9B94C2A78BF40EBBE7 /* OTBaseController.swift */; };
+		BCA5CE10C47340CFF790BE386C61FCD0 /* OTExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C181E7F6D2D8D415AA4DB0B90C0CE2A5 /* OTExtension.bundle */; };
+		BF1A78F7D3BC8FF91000C012758EE934 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18B910F60C25185D2DE60B3A39AF1C /* ConstraintOffsetTarget.swift */; };
+		C50B7C11F7FD465F1540E013D22BDF75 /* OTMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF2F2C366C8A634A2C13FD131489204 /* OTMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C622AA0878993DD7FB2B1A785EB15659 /* OTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB57AC003ECCF2439C28FC9C408748AD /* OTButton.swift */; };
+		C84832FA3A75BB0CE85B022438774BD3 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81BB7982247D804E9546D2DD10B89E /* ConstraintInsets.swift */; };
+		C9FF590D56148CA29DD5EF05F74B8CAC /* OTExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AD69675D998C073AA941109ECC8A12 /* OTExtension.framework */; };
+		CC3A61AB3F374E82299D10ADCD5D04F0 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F3E7C33E7D72E9079635BF0A1F066 /* UILayoutSupport+Extensions.swift */; };
+		CD3036BCAE065FAC68BEF1043CF698E9 /* OTHotelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD904AF04089E1383D4D119006F59807 /* OTHotelController.swift */; };
+		D08C3F83F3DC293AE2DF9471ECE236F0 /* OTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284EAC2F79FA3682106A5D560FA1DD3 /* OTLabel.swift */; };
+		D2B33A9E362A3F2D439C9DB87E9A0FD5 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 120ED9EAE9592B4EAC69AEADC2B4E926 /* WMMenuItem.m */; };
+		D627EBB133C69082C086E861C3D66432 /* OTBusinessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69635C89FD28E5D307418106353BA607 /* OTBusinessController.swift */; };
+		D6C80413C88B28CF807615AC4957F2A1 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE6D888C36C8F45B1E41A7708AE3A3 /* ConstraintPriority.swift */; };
+		D8158A5D34C9D7EDDA81F37E6C3CA194 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625E0043BEB103E27E7588951056C9C /* ConstraintMakerFinalizable.swift */; };
+		DADDBF576531847560FE2181985AC6E7 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC368F50EB6EFA5BE96D544872DEEEA /* UIViewController+WMPageController.m */; };
+		DFDC3BF23922AF079098F96EF1CD23E0 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8880075DCC1834C5B880BE72F04B00F /* ConstraintView.swift */; };
+		E0BC345C163F14F8E5429D3DD4DA204A /* OTExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1294FCBE4786C8246BEF15B33E764731 /* OTExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DB3A081E58077BA1D5EF7CD813C7F5 /* OTExtensionLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2F0ED46B625841DA1BE2B5B3A6AAB /* OTExtensionLocation.swift */; };
+		E79DB937F2EBA991A7EB823C4D12BA64 /* WMPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FB7AA7027926A36200334C81717C0B /* WMPageController-dummy.m */; };
+		EF237902AAFAE553AAA4323787EA9CA0 /* OTExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2696FB316C40142240AD593A655BC1 /* OTExtension-dummy.m */; };
+		EF6DD18AC46278780384723F63BFE6C2 /* OTRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242271489112A6EB4F9851206E860B67 /* OTRoute.framework */; };
+		F4B428E4B533E0190746C426E8E8FB00 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7285A250DD5BB2AE45AAA8E5DEEC5 /* ConstraintDescription.swift */; };
+		F6C21FE6478A18B66F69E2A2C4839E53 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B7C39F5CE7E145B1846B7CB466EFEF /* ConstraintMakerEditable.swift */; };
+		F6F8C813600DC1F83FADCF88A32C5CCB /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F8D75AF5064C9B2BA4B455AD9C3F6 /* ConstraintLayoutGuideDSL.swift */; };
+		F8D2CA908CE2A44059BC3A02DFCB96A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		F94881D30B9272E27F8543293D826C61 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FF5BF682CABE883FBAA9B5BDC351CA /* SnapKit.framework */; };
+		F97DA39F59490A9B44741074D1AF56B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */; };
+		FBC2142EB5696A62A68E8B20683B8EF7 /* Root.strings in Sources */ = {isa = PBXBuildFile; fileRef = 3826A0C9D88A7410DA33FE59A1A971A6 /* Root.strings */; };
+		FCB3DFDE1F54A84F1E4D24F7FA5D0002 /* OTEn.strings in Sources */ = {isa = PBXBuildFile; fileRef = 9977B58EBC27D30193A13A768A1C2248 /* OTEn.strings */; };
+		FF10825210DAB07EAA1A262195BD498F /* WMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E3B1EB4C5EA350703E67278CA61C48 /* WMScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B2577634FD1EC4027D1AF2C88A2B68A /* PBXContainerItemProxy */ = {
+		0F44A18E9BC6CB56B56B74D182BCC259 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 662A529969C7EDE378B70AE44E783F69;
+			remoteGlobalIDString = 353FB57CC65CC9A8F042B23A46BD7FC8;
+			remoteInfo = OTMacro;
+		};
+		1490C51066F5F82CB9121B41ABD060C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353FB57CC65CC9A8F042B23A46BD7FC8;
+			remoteInfo = OTMacro;
+		};
+		157E81AD0D3E439E00C2A5EA42FB2AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4C8667CDC34ABCCCAE819C1B5635A8;
+			remoteInfo = OTUIKit;
+		};
+		31423AAACA2AFD5772F9A912B4EE4711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E1F8D4A72477D7B70BBF9BA61EEA57;
+			remoteInfo = OTExtension;
+		};
+		3CF87E006866218E8335A2005BB15A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E1F8D4A72477D7B70BBF9BA61EEA57;
+			remoteInfo = OTExtension;
+		};
+		5640DD135E323F92F98C3916B525E4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E1F8D4A72477D7B70BBF9BA61EEA57;
+			remoteInfo = OTExtension;
+		};
+		74749D96F1C723CE3055C5757819BE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E21C0B6677E96FF0D62D9C36E597E21;
+			remoteInfo = "OTExtension-OTExtension";
+		};
+		75981BFE412BE58D8772B912C70F1288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353FB57CC65CC9A8F042B23A46BD7FC8;
+			remoteInfo = OTMacro;
+		};
+		7781A156C27A25387CDA563488D5F3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7034BD93E886F55E01DD1824AB7CC76;
+			remoteInfo = OTRoute;
+		};
+		79046D6EB026DB070ECB8B9D2991F8A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9710BFE02DC30CC457C7650CA5464823;
+			remoteInfo = OTBaseModular;
+		};
+		80FB86D2E092F32FD47B540426EB211C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E1F8D4A72477D7B70BBF9BA61EEA57;
+			remoteInfo = OTExtension;
+		};
+		89BC7EDBD063AA49F6378083036C221B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7034BD93E886F55E01DD1824AB7CC76;
+			remoteInfo = OTRoute;
+		};
+		89D036EC06E8B42DECA2BE49A9408DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1FBC4FCC2D7AEB9B7561D35D59ED05;
+			remoteInfo = WMPageController;
+		};
+		948E2925C514F2B251761D33BC0060F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4C8667CDC34ABCCCAE819C1B5635A8;
+			remoteInfo = OTUIKit;
+		};
+		998315001CD92242A00D6EB8548C917E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79ABEF8EECC46F9CD4EB0E182471EE1;
+			remoteInfo = SnapKit;
+		};
+		A833E8B09C8ED4B3EFE96B8A4CEDEEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9710BFE02DC30CC457C7650CA5464823;
+			remoteInfo = OTBaseModular;
+		};
+		AE872296C01C49A3CB0EA7CB920E5556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79ABEF8EECC46F9CD4EB0E182471EE1;
+			remoteInfo = SnapKit;
+		};
+		B7821283759F0ED8B6E46794EEF43EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353FB57CC65CC9A8F042B23A46BD7FC8;
+			remoteInfo = OTMacro;
+		};
+		BDEE878F4CE226169A4A9E7906DE9D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353FB57CC65CC9A8F042B23A46BD7FC8;
+			remoteInfo = OTMacro;
+		};
+		DBE6BC2E200187BCBFE77B691944CD7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1FBC4FCC2D7AEB9B7561D35D59ED05;
+			remoteInfo = WMPageController;
+		};
+		E5F79975881EEE8AD9B6BE32EB4AE228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79ABEF8EECC46F9CD4EB0E182471EE1;
+			remoteInfo = SnapKit;
+		};
+		F91221289B5C3AB922B91248FE369161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B0581FDC0A857D2C17E5328141D607;
 			remoteInfo = OTBusinessModular;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E3B1EB4C5EA350703E67278CA61C48 /* WMScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScrollView.h; path = WMPageController/WMMenuView/WMScrollView.h; sourceTree = "<group>"; };
+		0237EA693D5185C6C884C641077A4331 /* OTBaseModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTBaseModular.framework; path = OTBaseModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		023EDF30F9FC2331C695F47437375206 /* OTColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTColorExtension.swift; path = OTExtension/Classes/OTColorExtension.swift; sourceTree = "<group>"; };
+		026A3487E7DD1380C2C28E6916C128DE /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		058D2B34B5FC3CB62566A4708110718D /* WMMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuView.h; path = WMPageController/WMMenuView/WMMenuView.h; sourceTree = "<group>"; };
+		058F8D75AF5064C9B2BA4B455AD9C3F6 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		06F423287268ADF60DC55ED82D6B4DF2 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		08EF91C6527B419A35CBD3CD8138370D /* language.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = language.bundle; path = OTExtension/Classes/language.bundle; sourceTree = "<group>"; };
+		0994B493FD75E4A756FA61F1E5DD169A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09ED44E15EF3EF641AA9219D1814849E /* Pods-OTBusinessModular_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTBusinessModular_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0F70F38B1ECFFD67476E564BA180D0FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105D34E0E1D944171066D3FA63E90D0B /* OTHans.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = OTHans.strings; path = OTExtension/Classes/language.bundle/OTHans.strings; sourceTree = "<group>"; };
+		120ED9EAE9592B4EAC69AEADC2B4E926 /* WMMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuItem.m; path = WMPageController/WMMenuView/WMMenuItem.m; sourceTree = "<group>"; };
+		1294FCBE4786C8246BEF15B33E764731 /* OTExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-umbrella.h"; sourceTree = "<group>"; };
 		15C88E331A108BE44882BC3F4DEC6BA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CE1A57642467B35F47716BFD9D1CC4 /* WMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMProgressView.h; path = WMPageController/WMMenuView/WMProgressView.h; sourceTree = "<group>"; };
+		16F7B315670F187A08EFD2266471825F /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		1A35DC2BB1DF4CB5EE71373130094BC7 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		1AC368F50EB6EFA5BE96D544872DEEEA /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WMPageController.m"; path = "WMPageController/UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		1CDBC28C1067FC1F49692943E5129CDA /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		1DFF005041F564C4F7D4AF6F977C7E94 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		22B93071F5EBCEEECDC0FA116DD32FD2 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		23D1989333C73ACE65B83487BFABE054 /* WMPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-prefix.pch"; sourceTree = "<group>"; };
+		242271489112A6EB4F9851206E860B67 /* OTRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B01B515E0F257F11D64BC1B34C8007 /* OTTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTTextField.swift; path = OTUIKit/Classes/OTTextField.swift; sourceTree = "<group>"; };
+		24BE6D888C36C8F45B1E41A7708AE3A3 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		25DD187333BF938B938282AED2EB33F4 /* Pods-OTBusinessModular_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTBusinessModular_Tests-dummy.m"; sourceTree = "<group>"; };
-		282A80A4C84A0EC3E302299FFA7F710E /* OTBusinessModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBusinessModular-umbrella.h"; sourceTree = "<group>"; };
-		2DAEF56A3BABBF777C06912B52A338B3 /* OTBusinessModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBusinessModular-prefix.pch"; sourceTree = "<group>"; };
-		31E445411F0C5F2CB7365F41D6D1DE30 /* OTBusinessModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTBusinessModular.modulemap; sourceTree = "<group>"; };
-		33BB8F0C3B75270A95D43414242EDDCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F2BEE5F1DD2E91CE64BA4749F8F8518 /* OTBusinessModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTBusinessModular.framework; path = OTBusinessModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DB26B59A2A9C2FD2DD2405C90C23FC /* OTBusinessModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBusinessModular-prefix.pch"; sourceTree = "<group>"; };
+		279B411C67416C7D7EDDD23ED310AB49 /* OTTourController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTTourController.swift; path = OTBusinessModular/Classes/OTTourController.swift; sourceTree = "<group>"; };
+		27FA17CF2CE789AB01698C0395738A96 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		28FB7AA7027926A36200334C81717C0B /* WMPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMPageController-dummy.m"; sourceTree = "<group>"; };
+		2A617E1E928A345D9B619AA586904DD4 /* OTUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTUIKit-dummy.m"; sourceTree = "<group>"; };
+		2C81BB7982247D804E9546D2DD10B89E /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		2DDD1A349D91B491E7DF7B61A03794A5 /* Pods_OTBusinessModular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBusinessModular_Example.framework; path = "Pods-OTBusinessModular_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F48184F5BCBB3BB307D534B647F0FD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024E688F964922F90D2B880B2E85C1C /* OTImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTImageExtension.swift; path = OTExtension/Classes/OTImageExtension.swift; sourceTree = "<group>"; };
+		34F3AC2259C4E8CCA4ED8B93B4BA369D /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		3826A0C9D88A7410DA33FE59A1A971A6 /* Root.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Root.strings; path = en.lproj/Root.strings; sourceTree = "<group>"; };
+		394B5DC39EBE1654E87CC6E44F57A1C7 /* WMPageController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMPageController.modulemap; sourceTree = "<group>"; };
+		3A18B910F60C25185D2DE60B3A39AF1C /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		3C6F1DB375353BFE56B34B8F2B5BB58E /* OTRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTRoute-dummy.m"; sourceTree = "<group>"; };
+		3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		400F6AC37BBD8BF379C2562182DE6F2E /* Pods-OTBusinessModular_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTBusinessModular_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		484E5C6786544BAD56B0AE6253709CF4 /* Pods_OTBusinessModular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBusinessModular_Example.framework; path = "Pods-OTBusinessModular_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FF5BF682CABE883FBAA9B5BDC351CA /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4472E51D22967FB6F25CCF97D9619474 /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTMacro.framework; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D13058548753C582A6E8CB77002BCD /* WMPageController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-umbrella.h"; sourceTree = "<group>"; };
+		480DF3FBB29DF348B63B02E1BA0B253E /* OTUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTUIKit.framework; path = OTUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C3DBABADA390C30C3ADB769647A9A0 /* OTMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTMacro.modulemap; sourceTree = "<group>"; };
+		4B40C40661B5288A7996FA3CDEB33111 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		4B50EF2378A9A1F6BBBCF3B3946C2759 /* Pods-OTBusinessModular_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBusinessModular_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4D2781FC8731099D7BF36891ABC207F8 /* Pods-OTBusinessModular_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTBusinessModular_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50C045554952C65D0D55422256A125F8 /* OTBusinessModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBusinessModular-umbrella.h"; sourceTree = "<group>"; };
+		52F559DDF9B69526743E336787D93D59 /* OTBaseModular-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBaseModular-umbrella.h"; sourceTree = "<group>"; };
+		55AD69675D998C073AA941109ECC8A12 /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE293AD2A5A3095C856AC7BF6E9FE04 /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WMPageController.h"; path = "WMPageController/UIViewController+WMPageController.h"; sourceTree = "<group>"; };
+		5DF7B98CE5C534CB6A27561FFAB50051 /* WMMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuItem.h; path = WMPageController/WMMenuView/WMMenuItem.h; sourceTree = "<group>"; };
+		5E7D436E2B51B853EA193249C664C4D5 /* OTBusinessModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTBusinessModular.framework; path = OTBusinessModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621C328BFB3A48E4C9920640C39D21EB /* OTRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTRoute-prefix.pch"; sourceTree = "<group>"; };
+		62B4CD4B4EE0DB9B94C2A78BF40EBBE7 /* OTBaseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTBaseController.swift; path = OTBaseModular/Classes/OTBaseController.swift; sourceTree = "<group>"; };
+		63EAF955C454F1E32F88193BE5C8D6EA /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		63EE61A6D96C3312DA9F8DE9C2061B4A /* OTExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTExtension.modulemap; sourceTree = "<group>"; };
+		69635C89FD28E5D307418106353BA607 /* OTBusinessController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTBusinessController.swift; path = OTBusinessModular/Classes/OTBusinessController.swift; sourceTree = "<group>"; };
+		69DA1EE8372615B470432A6785A632B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8ED5DBACEA943400FFEC73E242C61A /* OTExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTExtension.xcconfig; sourceTree = "<group>"; };
+		6CB568B0FFE0DB726A8800AB18B1AC0C /* OTTicketController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTTicketController.swift; path = OTBusinessModular/Classes/OTTicketController.swift; sourceTree = "<group>"; };
+		6CC77F505B02E484E51C938860D3B526 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE0569919458356B930DD8B7D07F758 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF2F2C366C8A634A2C13FD131489204 /* OTMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-umbrella.h"; sourceTree = "<group>"; };
+		6FC2B67FCB97733DA41EC587FF1F8C7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A41263E1AD7BCA3A9169CDA4689A1B /* OTBaseModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBaseModular.xcconfig; sourceTree = "<group>"; };
+		747E4113E3DFEF1410BFB3BA427DCEE7 /* WMPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776F6A7816FFA233167F47C0521FC2C6 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		780CBA02214FD6BCC13CD22E146D17BD /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		7A2696FB316C40142240AD593A655BC1 /* OTExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTExtension-dummy.m"; sourceTree = "<group>"; };
+		7DEE78D5E792577D4FEB620FCBAC36EB /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3192013ECAD5695359461D932DA8CE /* Pods-OTBusinessModular_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTBusinessModular_Example-dummy.m"; sourceTree = "<group>"; };
+		80897D372D98559482A3623F3D0D504E /* ResourceBundle-OTExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OTExtension-Info.plist"; sourceTree = "<group>"; };
+		809A626142C93B1954620464ED78ACA8 /* OTRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTRoute.framework; path = OTRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81088FBD258784099DDCA63E124EDC52 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		828DE4A8327BD64FDEDEECE80CA69813 /* OTRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTRoute.modulemap; sourceTree = "<group>"; };
 		85A4FF64901A7045B45B45EA4BFA4EB4 /* Pods-OTBusinessModular_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTBusinessModular_Example.modulemap"; sourceTree = "<group>"; };
+		89BBEE29B3E83F1F845D9638CA86111A /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		8B6DCD750D990A338AE00B8C3B075F6D /* OTUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTUIKit.xcconfig; sourceTree = "<group>"; };
+		8C8F3E7C33E7D72E9079635BF0A1F066 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		91F5E65B473D6D1B2751C90374F8B20C /* OTBaseModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTBaseModular.modulemap; sourceTree = "<group>"; };
+		9228FB1B078F7E8A2BC9CAD8AC477DB1 /* WMMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuView.m; path = WMPageController/WMMenuView/WMMenuView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97354F34CD7C274C2D4A0159B267B00B /* OTBusinessModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBusinessModular-dummy.m"; sourceTree = "<group>"; };
+		970E530FB490B4712204A9417B55B878 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		9793438C7C21D9FF323A5F476C6852D7 /* OTMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTMacro-dummy.m"; sourceTree = "<group>"; };
+		9977B58EBC27D30193A13A768A1C2248 /* OTEn.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = OTEn.strings; path = OTExtension/Classes/language.bundle/OTEn.strings; sourceTree = "<group>"; };
+		9A2D780F44D6F576892383B0B639AA65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B0C9B1E61A90283AE90A72C3FFECEC0 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = OTExtension/Classes/language.bundle/Root.plist; sourceTree = "<group>"; };
+		9C6804656FE7C702C59B2AC973781B81 /* OTBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTBundleExtension.swift; path = OTExtension/Classes/OTBundleExtension.swift; sourceTree = "<group>"; };
+		9CF2F0ED46B625841DA1BE2B5B3A6AAB /* OTExtensionLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTExtensionLocation.swift; path = OTExtension/Classes/OTExtensionLocation.swift; sourceTree = "<group>"; };
+		A0FC627A201FDE622C5080502287A19D /* OTRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTRoute.xcconfig; sourceTree = "<group>"; };
 		A1A1373F0BE1B4EAD17E623523EC2796 /* Pods-OTBusinessModular_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBusinessModular_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A3F1214CEFD10A64D3DC2548A8DDF583 /* Pods-OTBusinessModular_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTBusinessModular_Example-umbrella.h"; sourceTree = "<group>"; };
-		AB98862FC55D7079B93EF1FDAC4CADCA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTBusinessModular/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AB8171DE2607441C1DF757D1B8EA756C /* OTUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTUIKit.modulemap; sourceTree = "<group>"; };
+		AB9CD6C08D2E2930CC90AEC2FBE9713D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7BC655F58C40DF28F60F03BCC83794 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		AF2B3BD062847FBBDE014C6688BA5C78 /* OTBaseModular-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTBaseModular-prefix.pch"; sourceTree = "<group>"; };
+		AFCCF326A06F7D7E1810C9080BBAD850 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		B27566810946D843FFB56509FBC24C60 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		B2F6376B298718E3F5E5665D8E056CEC /* WMPageController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.xcconfig; sourceTree = "<group>"; };
+		B4DAC1DC6E523C490AE334135D56486B /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		B57D86AF351BEBBE360682F16A070521 /* Pods-OTBusinessModular_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBusinessModular_Tests-resources.sh"; sourceTree = "<group>"; };
-		C0CF566FF8AD0D00A14D755ACD777EDA /* Pods_OTBusinessModular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBusinessModular_Tests.framework; path = "Pods-OTBusinessModular_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C437D6F4C474D2FFFFB41DFB57BEF /* WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPageController.m; path = WMPageController/WMPageController.m; sourceTree = "<group>"; };
+		B7AA663571BE845B42FAF05B891A0684 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		B7DFCFA9BCB6125C67C8C1E068DB65B8 /* OTBaseModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBaseModular-dummy.m"; sourceTree = "<group>"; };
+		B835A7D295B84748D30EC311C76B2A0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B8C156BED16DFAD60300065D66A7B8E4 /* OTMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTMacro.swift; path = OTMacro/Classes/OTMacro.swift; sourceTree = "<group>"; };
+		B8D096FB2B120FAC0B8825C8E39F7E33 /* OTUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTUIKit-prefix.pch"; sourceTree = "<group>"; };
+		B95A506C6DE9B1429553205B28744EF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB24DFDCB1ADD79983119F5457ED8B6B /* WMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMProgressView.m; path = WMPageController/WMMenuView/WMProgressView.m; sourceTree = "<group>"; };
+		BD904AF04089E1383D4D119006F59807 /* OTHotelController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTHotelController.swift; path = OTBusinessModular/Classes/OTHotelController.swift; sourceTree = "<group>"; };
+		BFD647AF94B65F344C1C71C30F3336CC /* OTRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTRoute-umbrella.h"; sourceTree = "<group>"; };
+		C09682FD55996A8A503B86AD6188A4DB /* WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPageController.h; path = WMPageController/WMPageController.h; sourceTree = "<group>"; };
+		C181E7F6D2D8D415AA4DB0B90C0CE2A5 /* OTExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OTExtension.bundle; path = OTExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C275523B32CCA11F45C2788251E56D3E /* OTBusinessModular.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTBusinessModular.modulemap; sourceTree = "<group>"; };
+		C41EF174544083CA4E0445478FE9CF45 /* WMPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMPageController.framework; path = WMPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67C9EEA98F868BDD85D70CC70295E5F /* OTUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTUIKit-umbrella.h"; sourceTree = "<group>"; };
+		C7BC0CC53F6B3788074B687F3EBD5B42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9299E4FC08019DD39A8F50BCE0C5D6 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		CDC44B2ED26E8974F51B117B14023045 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		CFB800EDA83E84222102B987EB7B9E0D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		D0630E5D614AA5A7ED9AE3173C1FF5FC /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		D104B9B1AC51BF681090BE11ABF3EC7A /* Pods-OTBusinessModular_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBusinessModular_Example-resources.sh"; sourceTree = "<group>"; };
+		D215E799B028DC8CE56B4A1CB51B5275 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D284EAC2F79FA3682106A5D560FA1DD3 /* OTLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTLabel.swift; path = OTUIKit/Classes/OTLabel.swift; sourceTree = "<group>"; };
+		D3BB9C65E874CCC876D5DC71525CB05E /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		D490EA724D69FE4A31083EB280E1FF1D /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTExtension.framework; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78C065A2AC207AF62B088170825DD9F /* Pods-OTBusinessModular_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTBusinessModular_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8F1BA61DC8EF891CD97BD64CC579500 /* OTUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA62352AADCD637F85CB3EE297D80C5F /* Pods-OTBusinessModular_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBusinessModular_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB70E7AE26703341A0667F19ADFC754 /* OTMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTMacro.xcconfig; sourceTree = "<group>"; };
+		E0D2B94DE7EE23B28F3A83A9FE51AF91 /* OTBusinessModular-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTBusinessModular-dummy.m"; sourceTree = "<group>"; };
 		E12A0811A76C6CE972A7E39C4AE647EA /* Pods-OTBusinessModular_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTBusinessModular_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E5B502E7DC62B4116B049DB2D123D29C /* Pods-OTBusinessModular_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTBusinessModular_Tests.modulemap"; sourceTree = "<group>"; };
+		E625E0043BEB103E27E7588951056C9C /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		E6A17641F174BEA84ACD57473F7DC7D8 /* Pods-OTBusinessModular_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTBusinessModular_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6E7CBD546907C4D37698960A4AC3D94 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		E70460A058B0630758AB76CFBA1BF48A /* Pods-OTBusinessModular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBusinessModular_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E8E1C704D50FDB86F117549DEBAB2340 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		E9B7285A250DD5BB2AE45AAA8E5DEEC5 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		EB57AC003ECCF2439C28FC9C408748AD /* OTButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTButton.swift; path = OTUIKit/Classes/OTButton.swift; sourceTree = "<group>"; };
 		EE5F2BB6CC2406F81B635347D4877825 /* Pods-OTBusinessModular_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTBusinessModular_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F824B5EE6C93019D67DB3E98B94FE5B4 /* OTBusinessModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBusinessModular.xcconfig; sourceTree = "<group>"; };
+		F0B7C39F5CE7E145B1846B7CB466EFEF /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		F11084F707246D931E507CB81D95D945 /* Pods_OTBusinessModular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTBusinessModular_Tests.framework; path = "Pods-OTBusinessModular_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B63ACE6DD090D1E5B0D83270B0E3A3 /* OTBusinessModular.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTBusinessModular.xcconfig; sourceTree = "<group>"; };
+		F2D67FBEBCB3CE5495250C7155F93952 /* WMScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScrollView.m; path = WMPageController/WMMenuView/WMScrollView.m; sourceTree = "<group>"; };
+		F5A6FC29331C376773667A38AF10F6F8 /* OTRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTRoute.swift; path = OTRoute/Classes/OTRoute.swift; sourceTree = "<group>"; };
+		F8880075DCC1834C5B880BE72F04B00F /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		FB534A972F800DD0311B3C09E4A2FB2D /* OTBaseModular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTBaseModular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDAAB6C9A616DB1D50EF1269625601A /* OTExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-prefix.pch"; sourceTree = "<group>"; };
+		FDF7B7035599A92DEBD2DC1CD43A6012 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		FE2230D10DA76A3A88B164B629BD9C58 /* OTMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,43 +445,137 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB78E60262574F1B6D209ACC40932A05 /* Frameworks */ = {
+		42B570C9BE13FD8C5C9DFABC13A0E3F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC9C9653B13C33143A19FF9717E3826 /* Foundation.framework in Frameworks */,
+				4BBA224D513485120BD0AE661074D945 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E279204CB690C8E6EB6996430FA81D /* Frameworks */ = {
+		5CBC3160F8B14F89EB8144B8BE46FDCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3907225E74950A5C0E90EA15D7981D7 /* Foundation.framework in Frameworks */,
+				55B8754A275DFAA6654F787FC7370CA6 /* CoreGraphics.framework in Frameworks */,
+				6C2ED993B64E690DA79241B5EE9EB333 /* Foundation.framework in Frameworks */,
+				068E5740BBDFF0E81E0F38A280B558FC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE355B3B0CFC522A3EA35C3CC2F98E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A16745A77634758546E614F1680552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D7F726A3E9AB639024829A4C015153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5A2C3D68801376CAFC1EB70042A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D2CA908CE2A44059BC3A02DFCB96A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930AA7D84A7EF05C277FA6241A069FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97DA39F59490A9B44741074D1AF56B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797F852CF3FFE8C6B1DDB12723FD1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072BD4D26C3F1628C02C1DD9CA890995 /* Foundation.framework in Frameworks */,
+				26AD5663725F06F7F539831D586992A9 /* OTExtension.framework in Frameworks */,
+				87A67D197D289FAB0A312637F9AB9891 /* OTMacro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B13FAEDB85D0332E1999BD15190EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8804A1B21B9B392A8C6BB0AB6E481409 /* Foundation.framework in Frameworks */,
+				A16F48DA681ACF146250D2EFB56D45C9 /* OTBaseModular.framework in Frameworks */,
+				C9FF590D56148CA29DD5EF05F74B8CAC /* OTExtension.framework in Frameworks */,
+				201A895FE9C16F087F9B88FE81B44E65 /* OTMacro.framework in Frameworks */,
+				EF6DD18AC46278780384723F63BFE6C2 /* OTRoute.framework in Frameworks */,
+				AA89800DEF4362CBE03BDAC85B8817C5 /* OTUIKit.framework in Frameworks */,
+				F94881D30B9272E27F8543293D826C61 /* SnapKit.framework in Frameworks */,
+				214E9C93F491D4A6740E52700622A4B7 /* WMPageController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B0879204061276D8211CD7824F71EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A6A0224502C76BC306EE1112B686A /* Foundation.framework in Frameworks */,
+				A0934E207411D6A5C49BAD3FDE7A3EB9 /* OTMacro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA599F11A17E1D611D052A1475D95D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60963009F01012C11BDE131E821FFEDF /* Foundation.framework in Frameworks */,
+				98BA2C7F567A68F326EBD0E62694D400 /* OTExtension.framework in Frameworks */,
+				42639859805437D5BA97C9C263285939 /* OTMacro.framework in Frameworks */,
+				4EF9CCEA1838EFB67DDB3C8D1CAB81DD /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0868C1257B4A3FFAA4AD9B5C4E578D4A /* Products */ = {
+		04E6BC2808C897ABBB8E201F287C4728 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F2BEE5F1DD2E91CE64BA4749F8F8518 /* OTBusinessModular.framework */,
-				484E5C6786544BAD56B0AE6253709CF4 /* Pods_OTBusinessModular_Example.framework */,
-				C0CF566FF8AD0D00A14D755ACD777EDA /* Pods_OTBusinessModular_Tests.framework */,
+				0237EA693D5185C6C884C641077A4331 /* OTBaseModular.framework */,
+				5E7D436E2B51B853EA193249C664C4D5 /* OTBusinessModular.framework */,
+				C181E7F6D2D8D415AA4DB0B90C0CE2A5 /* OTExtension.bundle */,
+				D490EA724D69FE4A31083EB280E1FF1D /* OTExtension.framework */,
+				4472E51D22967FB6F25CCF97D9619474 /* OTMacro.framework */,
+				809A626142C93B1954620464ED78ACA8 /* OTRoute.framework */,
+				480DF3FBB29DF348B63B02E1BA0B253E /* OTUIKit.framework */,
+				2DDD1A349D91B491E7DF7B61A03794A5 /* Pods_OTBusinessModular_Example.framework */,
+				F11084F707246D931E507CB81D95D945 /* Pods_OTBusinessModular_Tests.framework */,
+				6CC77F505B02E484E51C938860D3B526 /* SnapKit.framework */,
+				C41EF174544083CA4E0445478FE9CF45 /* WMPageController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C9C10605AE6602698CA4394AA4E9773 /* OTBusinessModular */ = {
+		09DE97B9ED0E53C37B8AC91780BA5D4C /* OTRoute */ = {
 			isa = PBXGroup;
 			children = (
-				AB98862FC55D7079B93EF1FDAC4CADCA /* ReplaceMe.swift */,
-				BAE5F7F371032BD14EC8F19336EE36AA /* Support Files */,
+				F5A6FC29331C376773667A38AF10F6F8 /* OTRoute.swift */,
+				A6B3833EE3DFF3EB66C094D5CC4B39D2 /* Support Files */,
 			);
-			name = OTBusinessModular;
-			path = ../..;
+			name = OTRoute;
+			path = OTRoute;
+			sourceTree = "<group>";
+		};
+		34A14E3A3F50E305940AEAE46956E9FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08EF91C6527B419A35CBD3CD8138370D /* language.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3A1F74A125212EE3799953452F54A4E3 /* Targets Support Files */ = {
@@ -119,6 +585,66 @@
 				6A3B542B6A4F8157B0A2F39479D61EE8 /* Pods-OTBusinessModular_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		518CE92446508FB30008F04929D5FC6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB534A972F800DD0311B3C09E4A2FB2D /* OTBaseModular.framework */,
+				55AD69675D998C073AA941109ECC8A12 /* OTExtension.framework */,
+				7DEE78D5E792577D4FEB620FCBAC36EB /* OTMacro.framework */,
+				242271489112A6EB4F9851206E860B67 /* OTRoute.framework */,
+				D8F1BA61DC8EF891CD97BD64CC579500 /* OTUIKit.framework */,
+				40FF5BF682CABE883FBAA9B5BDC351CA /* SnapKit.framework */,
+				747E4113E3DFEF1410BFB3BA427DCEE7 /* WMPageController.framework */,
+				579F55A93E1AC43BE32041DDE7559D2B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5370B42F42DE5B50F6547056C570266C /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE293AD2A5A3095C856AC7BF6E9FE04 /* UIViewController+WMPageController.h */,
+				1AC368F50EB6EFA5BE96D544872DEEEA /* UIViewController+WMPageController.m */,
+				5DF7B98CE5C534CB6A27561FFAB50051 /* WMMenuItem.h */,
+				120ED9EAE9592B4EAC69AEADC2B4E926 /* WMMenuItem.m */,
+				058D2B34B5FC3CB62566A4708110718D /* WMMenuView.h */,
+				9228FB1B078F7E8A2BC9CAD8AC477DB1 /* WMMenuView.m */,
+				C09682FD55996A8A503B86AD6188A4DB /* WMPageController.h */,
+				B78C437D6F4C474D2FFFFB41DFB57BEF /* WMPageController.m */,
+				15CE1A57642467B35F47716BFD9D1CC4 /* WMProgressView.h */,
+				BB24DFDCB1ADD79983119F5457ED8B6B /* WMProgressView.m */,
+				01E3B1EB4C5EA350703E67278CA61C48 /* WMScrollView.h */,
+				F2D67FBEBCB3CE5495250C7155F93952 /* WMScrollView.m */,
+				5D26CC94ACC6AA352CA84C3431BDCE39 /* Support Files */,
+			);
+			name = WMPageController;
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		579F55A93E1AC43BE32041DDE7559D2B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B835A7D295B84748D30EC311C76B2A0F /* CoreGraphics.framework */,
+				3F8BF1FA4CF49618DDBECA42F9456A0C /* Foundation.framework */,
+				9A2D780F44D6F576892383B0B639AA65 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D26CC94ACC6AA352CA84C3431BDCE39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7BC0CC53F6B3788074B687F3EBD5B42 /* Info.plist */,
+				394B5DC39EBE1654E87CC6E44F57A1C7 /* WMPageController.modulemap */,
+				B2F6376B298718E3F5E5665D8E056CEC /* WMPageController.xcconfig */,
+				28FB7AA7027926A36200334C81717C0B /* WMPageController-dummy.m */,
+				23D1989333C73ACE65B83487BFABE054 /* WMPageController-prefix.pch */,
+				46D13058548753C582A6E8CB77002BCD /* WMPageController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WMPageController";
 			sourceTree = "<group>";
 		};
 		6A3B542B6A4F8157B0A2F39479D61EE8 /* Pods-OTBusinessModular_Tests */ = {
@@ -139,45 +665,154 @@
 			path = "Target Support Files/Pods-OTBusinessModular_Tests";
 			sourceTree = "<group>";
 		};
+		799FA9D10899FAD647C772F42C58A5CB /* OTBusinessModular */ = {
+			isa = PBXGroup;
+			children = (
+				69635C89FD28E5D307418106353BA607 /* OTBusinessController.swift */,
+				BD904AF04089E1383D4D119006F59807 /* OTHotelController.swift */,
+				6CB568B0FFE0DB726A8800AB18B1AC0C /* OTTicketController.swift */,
+				279B411C67416C7D7EDDD23ED310AB49 /* OTTourController.swift */,
+				E24F7EE0D278D15BD71945424240815C /* Support Files */,
+			);
+			name = OTBusinessModular;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9D03A70A89F316E717EADCE350D857C4 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0868C1257B4A3FFAA4AD9B5C4E578D4A /* Products */,
+				9DFCDF46031496DC9096603B5671D055 /* Development Pods */,
+				518CE92446508FB30008F04929D5FC6D /* Frameworks */,
+				962B3C1CD8CC46617580499B9194E0D2 /* Pods */,
+				04E6BC2808C897ABBB8E201F287C4728 /* Products */,
 				3A1F74A125212EE3799953452F54A4E3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9D03A70A89F316E717EADCE350D857C4 /* Development Pods */ = {
+		7F19B60B409CD9003BC9229DE624F2B3 /* OTMacro */ = {
 			isa = PBXGroup;
 			children = (
-				1C9C10605AE6602698CA4394AA4E9773 /* OTBusinessModular */,
+				B8C156BED16DFAD60300065D66A7B8E4 /* OTMacro.swift */,
+				91C622A4B777C1A27EC208AB4A70E2CE /* Support Files */,
+			);
+			name = OTMacro;
+			path = OTMacro;
+			sourceTree = "<group>";
+		};
+		8130E4DA4769A977B5931E69BAF37EFC /* OTBaseModular */ = {
+			isa = PBXGroup;
+			children = (
+				62B4CD4B4EE0DB9B94C2A78BF40EBBE7 /* OTBaseController.swift */,
+				BA0C8E493EC199F79ECDC9BC426E2B2C /* Support Files */,
+			);
+			name = OTBaseModular;
+			path = OTBaseModular;
+			sourceTree = "<group>";
+		};
+		91C622A4B777C1A27EC208AB4A70E2CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CD6C08D2E2930CC90AEC2FBE9713D /* Info.plist */,
+				49C3DBABADA390C30C3ADB769647A9A0 /* OTMacro.modulemap */,
+				DDB70E7AE26703341A0667F19ADFC754 /* OTMacro.xcconfig */,
+				9793438C7C21D9FF323A5F476C6852D7 /* OTMacro-dummy.m */,
+				FE2230D10DA76A3A88B164B629BD9C58 /* OTMacro-prefix.pch */,
+				6CF2F2C366C8A634A2C13FD131489204 /* OTMacro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTMacro";
+			sourceTree = "<group>";
+		};
+		962B3C1CD8CC46617580499B9194E0D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8130E4DA4769A977B5931E69BAF37EFC /* OTBaseModular */,
+				CC2D4D73C59FEA281206DEB905759418 /* OTExtension */,
+				7F19B60B409CD9003BC9229DE624F2B3 /* OTMacro */,
+				09DE97B9ED0E53C37B8AC91780BA5D4C /* OTRoute */,
+				B86129222DC2E19A0A772640610EF69B /* OTUIKit */,
+				DD20170FC1255E2EB873D239EDD2BC6B /* SnapKit */,
+				5370B42F42DE5B50F6547056C570266C /* WMPageController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DFCDF46031496DC9096603B5671D055 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				799FA9D10899FAD647C772F42C58A5CB /* OTBusinessModular */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BAE5F7F371032BD14EC8F19336EE36AA /* Support Files */ = {
+		A1D1E8E460A20161E6BE497F8D626457 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				33BB8F0C3B75270A95D43414242EDDCC /* Info.plist */,
-				31E445411F0C5F2CB7365F41D6D1DE30 /* OTBusinessModular.modulemap */,
-				F824B5EE6C93019D67DB3E98B94FE5B4 /* OTBusinessModular.xcconfig */,
-				97354F34CD7C274C2D4A0159B267B00B /* OTBusinessModular-dummy.m */,
-				2DAEF56A3BABBF777C06912B52A338B3 /* OTBusinessModular-prefix.pch */,
-				282A80A4C84A0EC3E302299FFA7F710E /* OTBusinessModular-umbrella.h */,
+				2F48184F5BCBB3BB307D534B647F0FD1 /* Info.plist */,
+				AB8171DE2607441C1DF757D1B8EA756C /* OTUIKit.modulemap */,
+				8B6DCD750D990A338AE00B8C3B075F6D /* OTUIKit.xcconfig */,
+				2A617E1E928A345D9B619AA586904DD4 /* OTUIKit-dummy.m */,
+				B8D096FB2B120FAC0B8825C8E39F7E33 /* OTUIKit-prefix.pch */,
+				C67C9EEA98F868BDD85D70CC70295E5F /* OTUIKit-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OTBusinessModular";
+			path = "../Target Support Files/OTUIKit";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A396E029DB12343D10B3E67393324C1B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				6CE0569919458356B930DD8B7D07F758 /* Info.plist */,
+				63EE61A6D96C3312DA9F8DE9C2061B4A /* OTExtension.modulemap */,
+				6B8ED5DBACEA943400FFEC73E242C61A /* OTExtension.xcconfig */,
+				7A2696FB316C40142240AD593A655BC1 /* OTExtension-dummy.m */,
+				FBDAAB6C9A616DB1D50EF1269625601A /* OTExtension-prefix.pch */,
+				1294FCBE4786C8246BEF15B33E764731 /* OTExtension-umbrella.h */,
+				80897D372D98559482A3623F3D0D504E /* ResourceBundle-OTExtension-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/OTExtension";
+			sourceTree = "<group>";
+		};
+		A6B3833EE3DFF3EB66C094D5CC4B39D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DA1EE8372615B470432A6785A632B4 /* Info.plist */,
+				828DE4A8327BD64FDEDEECE80CA69813 /* OTRoute.modulemap */,
+				A0FC627A201FDE622C5080502287A19D /* OTRoute.xcconfig */,
+				3C6F1DB375353BFE56B34B8F2B5BB58E /* OTRoute-dummy.m */,
+				621C328BFB3A48E4C9920640C39D21EB /* OTRoute-prefix.pch */,
+				BFD647AF94B65F344C1C71C30F3336CC /* OTRoute-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTRoute";
+			sourceTree = "<group>";
+		};
+		B86129222DC2E19A0A772640610EF69B /* OTUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EB57AC003ECCF2439C28FC9C408748AD /* OTButton.swift */,
+				D284EAC2F79FA3682106A5D560FA1DD3 /* OTLabel.swift */,
+				24B01B515E0F257F11D64BC1B34C8007 /* OTTextField.swift */,
+				A1D1E8E460A20161E6BE497F8D626457 /* Support Files */,
+			);
+			name = OTUIKit;
+			path = OTUIKit;
+			sourceTree = "<group>";
+		};
+		BA0C8E493EC199F79ECDC9BC426E2B2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0994B493FD75E4A756FA61F1E5DD169A /* Info.plist */,
+				91F5E65B473D6D1B2751C90374F8B20C /* OTBaseModular.modulemap */,
+				72A41263E1AD7BCA3A9169CDA4689A1B /* OTBaseModular.xcconfig */,
+				B7DFCFA9BCB6125C67C8C1E068DB65B8 /* OTBaseModular-dummy.m */,
+				AF2B3BD062847FBBDE014C6688BA5C78 /* OTBaseModular-prefix.pch */,
+				52F559DDF9B69526743E336787D93D59 /* OTBaseModular-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTBaseModular";
 			sourceTree = "<group>";
 		};
 		CABEEA580090F8DA01D1CBE6ECDDD666 /* Pods-OTBusinessModular_Example */ = {
@@ -198,22 +833,157 @@
 			path = "Target Support Files/Pods-OTBusinessModular_Example";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		CC2D4D73C59FEA281206DEB905759418 /* OTExtension */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9C6804656FE7C702C59B2AC973781B81 /* OTBundleExtension.swift */,
+				023EDF30F9FC2331C695F47437375206 /* OTColorExtension.swift */,
+				9977B58EBC27D30193A13A768A1C2248 /* OTEn.strings */,
+				9CF2F0ED46B625841DA1BE2B5B3A6AAB /* OTExtensionLocation.swift */,
+				105D34E0E1D944171066D3FA63E90D0B /* OTHans.strings */,
+				3024E688F964922F90D2B880B2E85C1C /* OTImageExtension.swift */,
+				9B0C9B1E61A90283AE90A72C3FFECEC0 /* Root.plist */,
+				E8354E540A2A0A637C8957B4CB087856 /* Root.strings */,
+				34A14E3A3F50E305940AEAE46956E9FC /* Resources */,
+				A396E029DB12343D10B3E67393324C1B /* Support Files */,
 			);
-			name = iOS;
+			name = OTExtension;
+			path = OTExtension;
+			sourceTree = "<group>";
+		};
+		DD20170FC1255E2EB873D239EDD2BC6B /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				026A3487E7DD1380C2C28E6916C128DE /* Constraint.swift */,
+				1CDBC28C1067FC1F49692943E5129CDA /* ConstraintAttributes.swift */,
+				D0630E5D614AA5A7ED9AE3173C1FF5FC /* ConstraintConfig.swift */,
+				776F6A7816FFA233167F47C0521FC2C6 /* ConstraintConstantTarget.swift */,
+				E9B7285A250DD5BB2AE45AAA8E5DEEC5 /* ConstraintDescription.swift */,
+				B4DAC1DC6E523C490AE334135D56486B /* ConstraintDSL.swift */,
+				2C81BB7982247D804E9546D2DD10B89E /* ConstraintInsets.swift */,
+				B7AA663571BE845B42FAF05B891A0684 /* ConstraintInsetTarget.swift */,
+				AFCCF326A06F7D7E1810C9080BBAD850 /* ConstraintItem.swift */,
+				16F7B315670F187A08EFD2266471825F /* ConstraintLayoutGuide.swift */,
+				27FA17CF2CE789AB01698C0395738A96 /* ConstraintLayoutGuide+Extensions.swift */,
+				058F8D75AF5064C9B2BA4B455AD9C3F6 /* ConstraintLayoutGuideDSL.swift */,
+				89BBEE29B3E83F1F845D9638CA86111A /* ConstraintLayoutSupport.swift */,
+				63EAF955C454F1E32F88193BE5C8D6EA /* ConstraintLayoutSupportDSL.swift */,
+				CFB800EDA83E84222102B987EB7B9E0D /* ConstraintMaker.swift */,
+				F0B7C39F5CE7E145B1846B7CB466EFEF /* ConstraintMakerEditable.swift */,
+				D215E799B028DC8CE56B4A1CB51B5275 /* ConstraintMakerExtendable.swift */,
+				E625E0043BEB103E27E7588951056C9C /* ConstraintMakerFinalizable.swift */,
+				970E530FB490B4712204A9417B55B878 /* ConstraintMakerPriortizable.swift */,
+				4B40C40661B5288A7996FA3CDEB33111 /* ConstraintMakerRelatable.swift */,
+				06F423287268ADF60DC55ED82D6B4DF2 /* ConstraintMultiplierTarget.swift */,
+				3A18B910F60C25185D2DE60B3A39AF1C /* ConstraintOffsetTarget.swift */,
+				24BE6D888C36C8F45B1E41A7708AE3A3 /* ConstraintPriority.swift */,
+				AC7BC655F58C40DF28F60F03BCC83794 /* ConstraintPriorityTarget.swift */,
+				CDC44B2ED26E8974F51B117B14023045 /* ConstraintRelatableTarget.swift */,
+				B27566810946D843FFB56509FBC24C60 /* ConstraintRelation.swift */,
+				F8880075DCC1834C5B880BE72F04B00F /* ConstraintView.swift */,
+				81088FBD258784099DDCA63E124EDC52 /* ConstraintView+Extensions.swift */,
+				CB9299E4FC08019DD39A8F50BCE0C5D6 /* ConstraintViewDSL.swift */,
+				E8E1C704D50FDB86F117549DEBAB2340 /* Debugging.swift */,
+				1A35DC2BB1DF4CB5EE71373130094BC7 /* LayoutConstraint.swift */,
+				E6E7CBD546907C4D37698960A4AC3D94 /* LayoutConstraintItem.swift */,
+				FDF7B7035599A92DEBD2DC1CD43A6012 /* Typealiases.swift */,
+				8C8F3E7C33E7D72E9079635BF0A1F066 /* UILayoutSupport+Extensions.swift */,
+				F2A0E6D522DDED71698EC5985C6002FD /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		E24F7EE0D278D15BD71945424240815C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC2B67FCB97733DA41EC587FF1F8C7F /* Info.plist */,
+				C275523B32CCA11F45C2788251E56D3E /* OTBusinessModular.modulemap */,
+				F2B63ACE6DD090D1E5B0D83270B0E3A3 /* OTBusinessModular.xcconfig */,
+				E0D2B94DE7EE23B28F3A83A9FE51AF91 /* OTBusinessModular-dummy.m */,
+				26DB26B59A2A9C2FD2DD2405C90C23FC /* OTBusinessModular-prefix.pch */,
+				50C045554952C65D0D55422256A125F8 /* OTBusinessModular-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTBusinessModular";
+			sourceTree = "<group>";
+		};
+		F2A0E6D522DDED71698EC5985C6002FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95A506C6DE9B1429553205B28744EF6 /* Info.plist */,
+				34F3AC2259C4E8CCA4ED8B93B4BA369D /* SnapKit.modulemap */,
+				1DFF005041F564C4F7D4AF6F977C7E94 /* SnapKit.xcconfig */,
+				22B93071F5EBCEEECDC0FA116DD32FD2 /* SnapKit-dummy.m */,
+				D3BB9C65E874CCC876D5DC71525CB05E /* SnapKit-prefix.pch */,
+				780CBA02214FD6BCC13CD22E146D17BD /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F958DF5B2579C20B197F467DA170B34 /* Headers */ = {
+		052C3C4773ED5832DDD0DA3A0470D98A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C10B8DA219F563A7CE1E8DC494FF96DF /* OTBusinessModular-umbrella.h in Headers */,
+				8C0173A670685D6D39DB7D9D481BA5C1 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DA99EB62E326AD5930E9C60B2686CF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F47DDCB2E0BF916141DF664A8933A6 /* OTBusinessModular-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284A97F977B1EC8A75F5E101D93E8625 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137124E72758D64980A3FEDD4482E76B /* OTRoute-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39358B7E0CE791962473F6A194699820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46EA7E3F09EB999C939F2EB371E0B1 /* Pods-OTBusinessModular_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C35CF48D291BB62A22F6700D76349 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88833DD3A628D317EF53823CD013BD0B /* UIViewController+WMPageController.h in Headers */,
+				6EB5AFE9BF19B0BB9BD1428297736B41 /* WMMenuItem.h in Headers */,
+				8DDFBF0AD0584546E7EEFEE9BF19FFC8 /* WMMenuView.h in Headers */,
+				7657C2BCE109D58D1FA4258E69BEC74B /* WMPageController-umbrella.h in Headers */,
+				25407C12BF864262A34E462838A5A1A1 /* WMPageController.h in Headers */,
+				25AA114988F4710C61D46CADCEE3D384 /* WMProgressView.h in Headers */,
+				FF10825210DAB07EAA1A262195BD498F /* WMScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECBB186F9AEA44B1A06B62CE25055EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BC345C163F14F8E5429D3DD4DA204A /* OTExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB30CC9A5FD765CAE9E6C170B9B4E3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B3F9431E5A80383960981562D5470D /* OTBaseModular-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,50 +995,199 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69D03803E88DC246E69967F3D88E529D /* Headers */ = {
+		7DE5C7A43E6F693C0344E20C966DA958 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47524F4DA8B7A61D7920C66E95F80B2E /* Pods-OTBusinessModular_Example-umbrella.h in Headers */,
+				6B08B1D800F1C6E2A739862450D28FA0 /* OTUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B68550922F8726A1B4272E65DDD84B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50B7C11F7FD465F1540E013D22BDF75 /* OTMacro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		077085AB66ACDC46D512061C893DDE71 /* Pods-OTBusinessModular_Example */ = {
+		00B0581FDC0A857D2C17E5328141D607 /* OTBusinessModular */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 119FC0AF2365C8A4EC0CC955BAA9483A /* Build configuration list for PBXNativeTarget "Pods-OTBusinessModular_Example" */;
+			buildConfigurationList = 3511DCC711C6D46AB8A508807A26AAF9 /* Build configuration list for PBXNativeTarget "OTBusinessModular" */;
 			buildPhases = (
-				64B3666C01DD389DF39B201E464A0F7B /* Sources */,
-				E0E279204CB690C8E6EB6996430FA81D /* Frameworks */,
-				69D03803E88DC246E69967F3D88E529D /* Headers */,
+				8060787D358197965ED3BA571B0BD5DE /* Sources */,
+				99B13FAEDB85D0332E1999BD15190EB5 /* Frameworks */,
+				0DA99EB62E326AD5930E9C60B2686CF9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36FAD53CA34E1FBCFF78FF357512A5EC /* PBXTargetDependency */,
-			);
-			name = "Pods-OTBusinessModular_Example";
-			productName = "Pods-OTBusinessModular_Example";
-			productReference = 484E5C6786544BAD56B0AE6253709CF4 /* Pods_OTBusinessModular_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		662A529969C7EDE378B70AE44E783F69 /* OTBusinessModular */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12BFBAF4D286BF1C9C6C3D90CFD57B8C /* Build configuration list for PBXNativeTarget "OTBusinessModular" */;
-			buildPhases = (
-				E24B6C16319607409FE73FC5E70EC80B /* Sources */,
-				CB78E60262574F1B6D209ACC40932A05 /* Frameworks */,
-				1F958DF5B2579C20B197F467DA170B34 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				229D02D3455524A171A89896DD31838D /* PBXTargetDependency */,
+				D225CBA81C7513B9FBF94A0ABF37E35E /* PBXTargetDependency */,
+				6D057881264835D5B3BE5BFE84B8D7D1 /* PBXTargetDependency */,
+				71C5DB1FA37CDAFE77C5C8BA519DB9B5 /* PBXTargetDependency */,
+				E86E93ABBE27A1F238C38A2034D6ACBD /* PBXTargetDependency */,
+				61A4E2B47F267BF8713717FC6944C877 /* PBXTargetDependency */,
+				E80BA7C953FCDEE431BE774A39F49480 /* PBXTargetDependency */,
 			);
 			name = OTBusinessModular;
 			productName = OTBusinessModular;
-			productReference = 3F2BEE5F1DD2E91CE64BA4749F8F8518 /* OTBusinessModular.framework */;
+			productReference = 5E7D436E2B51B853EA193249C664C4D5 /* OTBusinessModular.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08E1F8D4A72477D7B70BBF9BA61EEA57 /* OTExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C593A30835EBFA2DECB8866FB652131D /* Build configuration list for PBXNativeTarget "OTExtension" */;
+			buildPhases = (
+				37F20B94CD6720E3696D4C0A92133E51 /* Sources */,
+				C9B0879204061276D8211CD7824F71EB /* Frameworks */,
+				3BB88D2EA673A467EDAE6F8D7B63E368 /* Resources */,
+				4ECBB186F9AEA44B1A06B62CE25055EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C374947279067A843E2CDE992C78561C /* PBXTargetDependency */,
+				CA0D93135712E37ADA848E289F2FEE13 /* PBXTargetDependency */,
+			);
+			name = OTExtension;
+			productName = OTExtension;
+			productReference = D490EA724D69FE4A31083EB280E1FF1D /* OTExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD0E76030D5467250EA21BE70834F2C /* Build configuration list for PBXNativeTarget "OTMacro" */;
+			buildPhases = (
+				49EA6C0F69F67120128FAB17332D1008 /* Sources */,
+				42B570C9BE13FD8C5C9DFABC13A0E3F5 /* Frameworks */,
+				C8B68550922F8726A1B4272E65DDD84B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTMacro;
+			productName = OTMacro;
+			productReference = 4472E51D22967FB6F25CCF97D9619474 /* OTMacro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E1FBC4FCC2D7AEB9B7561D35D59ED05 /* WMPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A951C9CAE2EB51C016362D25D48BDB1F /* Build configuration list for PBXNativeTarget "WMPageController" */;
+			buildPhases = (
+				DF0DF5C7975F7C53FD956BAFF8719301 /* Sources */,
+				5CBC3160F8B14F89EB8144B8BE46FDCE /* Frameworks */,
+				417C35CF48D291BB62A22F6700D76349 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMPageController;
+			productName = WMPageController;
+			productReference = C41EF174544083CA4E0445478FE9CF45 /* WMPageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B24A5DB39C0604DD68ECAEEB34C20FE /* Pods-OTBusinessModular_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D176B2B063F3B349E800828A7C0D914 /* Build configuration list for PBXNativeTarget "Pods-OTBusinessModular_Example" */;
+			buildPhases = (
+				97B866391171AC9ECB19B027BBCA5803 /* Sources */,
+				930AA7D84A7EF05C277FA6241A069FD6 /* Frameworks */,
+				39358B7E0CE791962473F6A194699820 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11139C71EA31C66EABC5EFEA545856EB /* PBXTargetDependency */,
+				2C55E0A91BD7CCEC28578112A41E1556 /* PBXTargetDependency */,
+				584A38E3ADCDDA448BDF6B6504DACEF0 /* PBXTargetDependency */,
+				B573A1F91B7B7CDFBB868DB2551D69F8 /* PBXTargetDependency */,
+				72EB34FBF82CFD1BC0A9F20FF71B752F /* PBXTargetDependency */,
+				01A3BD909A6AA78C840AEEC4C066C531 /* PBXTargetDependency */,
+				2F97DA3701314327E1B99B6A1717A6C7 /* PBXTargetDependency */,
+				B6340A8348FF5B19D9B69048CF9B555E /* PBXTargetDependency */,
+			);
+			name = "Pods-OTBusinessModular_Example";
+			productName = "Pods-OTBusinessModular_Example";
+			productReference = 2DDD1A349D91B491E7DF7B61A03794A5 /* Pods_OTBusinessModular_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9710BFE02DC30CC457C7650CA5464823 /* OTBaseModular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4207D9AE8A2DB889314C6E56B03094E7 /* Build configuration list for PBXNativeTarget "OTBaseModular" */;
+			buildPhases = (
+				11A32D6722B25D12FF436E3867C5819F /* Sources */,
+				78A16745A77634758546E614F1680552 /* Frameworks */,
+				5BB30CC9A5FD765CAE9E6C170B9B4E3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTBaseModular;
+			productName = OTBaseModular;
+			productReference = 0237EA693D5185C6C884C641077A4331 /* OTBaseModular.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E21C0B6677E96FF0D62D9C36E597E21 /* OTExtension-OTExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C987BD8B8ABF8B9565832DA619F82D /* Build configuration list for PBXNativeTarget "OTExtension-OTExtension" */;
+			buildPhases = (
+				85FDB909E8F4406CBD1EAC2E718968EC /* Sources */,
+				6CE355B3B0CFC522A3EA35C3CC2F98E9 /* Frameworks */,
+				FD5A16A76C473B74F52E0B26DA16B7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTExtension-OTExtension";
+			productName = "OTExtension-OTExtension";
+			productReference = C181E7F6D2D8D415AA4DB0B90C0CE2A5 /* OTExtension.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A7034BD93E886F55E01DD1824AB7CC76 /* OTRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478F78C6A19F9207451BD1137F1FB8D5 /* Build configuration list for PBXNativeTarget "OTRoute" */;
+			buildPhases = (
+				138BAE9CC4FB2067AE17FD442737B87D /* Sources */,
+				9797F852CF3FFE8C6B1DDB12723FD1F2 /* Frameworks */,
+				284A97F977B1EC8A75F5E101D93E8625 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDFC16AFFE13B90E2D734BF25ABEA95 /* PBXTargetDependency */,
+				9604CEA37E7AA8DFD9F3A013725391C3 /* PBXTargetDependency */,
+			);
+			name = OTRoute;
+			productName = OTRoute;
+			productReference = 809A626142C93B1954620464ED78ACA8 /* OTRoute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC4C8667CDC34ABCCCAE819C1B5635A8 /* OTUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0474CD8A9FEFF527441EAE0A88EB100D /* Build configuration list for PBXNativeTarget "OTUIKit" */;
+			buildPhases = (
+				345BE928867EEB4DD7921CCE086C43E2 /* Sources */,
+				EA599F11A17E1D611D052A1475D95D9E /* Frameworks */,
+				7DE5C7A43E6F693C0344E20C966DA958 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D683F4C38A90CC8E33FE764A97215F /* PBXTargetDependency */,
+				39D339D39BCC1DF95C09950AA4A24B3C /* PBXTargetDependency */,
+				DAD9E54D30444F1CC322312C795193DE /* PBXTargetDependency */,
+			);
+			name = OTUIKit;
+			productName = OTUIKit;
+			productReference = 480DF3FBB29DF348B63B02E1BA0B253E /* OTUIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DF071A84F63846BB5D16B0FCEEE666EB /* Pods-OTBusinessModular_Tests */ = {
@@ -285,7 +1204,24 @@
 			);
 			name = "Pods-OTBusinessModular_Tests";
 			productName = "Pods-OTBusinessModular_Tests";
-			productReference = C0CF566FF8AD0D00A14D755ACD777EDA /* Pods_OTBusinessModular_Tests.framework */;
+			productReference = F11084F707246D931E507CB81D95D945 /* Pods_OTBusinessModular_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E79ABEF8EECC46F9CD4EB0E182471EE1 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F2C7DCA1CC1A21E19EF57EB22D611A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				86CACE2FE673164D4C896A41A176B2CB /* Sources */,
+				83E5A2C3D68801376CAFC1EB70042A43 /* Frameworks */,
+				052C3C4773ED5832DDD0DA3A0470D98A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 6CC77F505B02E484E51C938860D3B526 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,18 +1241,99 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0868C1257B4A3FFAA4AD9B5C4E578D4A /* Products */;
+			productRefGroup = 04E6BC2808C897ABBB8E201F287C4728 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				662A529969C7EDE378B70AE44E783F69 /* OTBusinessModular */,
-				077085AB66ACDC46D512061C893DDE71 /* Pods-OTBusinessModular_Example */,
+				9710BFE02DC30CC457C7650CA5464823 /* OTBaseModular */,
+				00B0581FDC0A857D2C17E5328141D607 /* OTBusinessModular */,
+				08E1F8D4A72477D7B70BBF9BA61EEA57 /* OTExtension */,
+				9E21C0B6677E96FF0D62D9C36E597E21 /* OTExtension-OTExtension */,
+				353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */,
+				A7034BD93E886F55E01DD1824AB7CC76 /* OTRoute */,
+				DC4C8667CDC34ABCCCAE819C1B5635A8 /* OTUIKit */,
+				4B24A5DB39C0604DD68ECAEEB34C20FE /* Pods-OTBusinessModular_Example */,
 				DF071A84F63846BB5D16B0FCEEE666EB /* Pods-OTBusinessModular_Tests */,
+				E79ABEF8EECC46F9CD4EB0E182471EE1 /* SnapKit */,
+				3E1FBC4FCC2D7AEB9B7561D35D59ED05 /* WMPageController */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3BB88D2EA673A467EDAE6F8D7B63E368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5CE10C47340CFF790BE386C61FCD0 /* OTExtension.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A16A76C473B74F52E0B26DA16B7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810B4C66C87FE623F4D75DF89ECA5D71 /* language.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		11A32D6722B25D12FF436E3867C5819F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93241C1647A74BE72B5A8AC884B7368 /* OTBaseController.swift in Sources */,
+				08F487DA0C72BD6BC196B17AE79EA6AA /* OTBaseModular-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138BAE9CC4FB2067AE17FD442737B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446D658BB40B5F5B0C8F00A0ED43BA8 /* OTRoute-dummy.m in Sources */,
+				9363699D3EA711E41D76083A9D0697EF /* OTRoute.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345BE928867EEB4DD7921CCE086C43E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C622AA0878993DD7FB2B1A785EB15659 /* OTButton.swift in Sources */,
+				D08C3F83F3DC293AE2DF9471ECE236F0 /* OTLabel.swift in Sources */,
+				65F71522C14AD664AA2636DE6F12CCDE /* OTTextField.swift in Sources */,
+				1537D40C80C153C8996867676661C6DD /* OTUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F20B94CD6720E3696D4C0A92133E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0F52FB11726DF10FB1B80759826064 /* OTBundleExtension.swift in Sources */,
+				81054D57306CDE592C5DDEBA7198052D /* OTColorExtension.swift in Sources */,
+				FCB3DFDE1F54A84F1E4D24F7FA5D0002 /* OTEn.strings in Sources */,
+				EF237902AAFAE553AAA4323787EA9CA0 /* OTExtension-dummy.m in Sources */,
+				E3DB3A081E58077BA1D5EF7CD813C7F5 /* OTExtensionLocation.swift in Sources */,
+				02CBBFE6990D2FFB677689594F0038FC /* OTHans.strings in Sources */,
+				0FE5E09D816CB008238569032BACC0C6 /* OTImageExtension.swift in Sources */,
+				5CF99C6EAACBD171EB7A5BEEC0592DB9 /* Root.plist in Sources */,
+				FBC2142EB5696A62A68E8B20683B8EF7 /* Root.strings in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EA6C0F69F67120128FAB17332D1008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AD49A5CCBE4AE336CEC97A29D558DE /* OTMacro-dummy.m in Sources */,
+				00EFBF7F3DF9E19790556F284F2B1984 /* OTMacro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54CD2D0C3864A0B2D3082A8815A611A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,35 +1342,431 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64B3666C01DD389DF39B201E464A0F7B /* Sources */ = {
+		8060787D358197965ED3BA571B0BD5DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394DE425DB8EC6045E53243025101ECC /* Pods-OTBusinessModular_Example-dummy.m in Sources */,
+				D627EBB133C69082C086E861C3D66432 /* OTBusinessController.swift in Sources */,
+				70C5954E8FF59B1FC18E07F5500A9B37 /* OTBusinessModular-dummy.m in Sources */,
+				CD3036BCAE065FAC68BEF1043CF698E9 /* OTHotelController.swift in Sources */,
+				7EA032286ED29739C89E23C0D8C5F7E1 /* OTTicketController.swift in Sources */,
+				060FDFF92F71F58166908D5450A3432B /* OTTourController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E24B6C16319607409FE73FC5E70EC80B /* Sources */ = {
+		85FDB909E8F4406CBD1EAC2E718968EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82200179879E23878D0E9EB6960895ED /* OTBusinessModular-dummy.m in Sources */,
-				9873FAD84DDD24F7A08D765ADD0071D8 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86CACE2FE673164D4C896A41A176B2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79707F7D64912DE5837847BCFF56EC08 /* Constraint.swift in Sources */,
+				98FD128779E74819A8C4C19BB6700DF1 /* ConstraintAttributes.swift in Sources */,
+				3D32C04A13F06D34F4401241CC47EFF5 /* ConstraintConfig.swift in Sources */,
+				776741D95AEFB1DAB264E5DADCB4FBFF /* ConstraintConstantTarget.swift in Sources */,
+				F4B428E4B533E0190746C426E8E8FB00 /* ConstraintDescription.swift in Sources */,
+				6C3A8362DE86AA455E5600BD2DA0E2CC /* ConstraintDSL.swift in Sources */,
+				C84832FA3A75BB0CE85B022438774BD3 /* ConstraintInsets.swift in Sources */,
+				060DDD876DC8EDE6383B8A85640BE6A9 /* ConstraintInsetTarget.swift in Sources */,
+				9D63094449C328977B592436C72323E4 /* ConstraintItem.swift in Sources */,
+				0E318CEA0DC4CAA8E7DAAA73232B3739 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				455788F1FE7313EAB6739D84DDA60D4B /* ConstraintLayoutGuide.swift in Sources */,
+				F6F8C813600DC1F83FADCF88A32C5CCB /* ConstraintLayoutGuideDSL.swift in Sources */,
+				4CC21AC91A2D92613B8E4A5063E92665 /* ConstraintLayoutSupport.swift in Sources */,
+				970CCB5FCE928399104D495198BACD0E /* ConstraintLayoutSupportDSL.swift in Sources */,
+				2FFABFE248587D9DBD189EA13B5E9EBF /* ConstraintMaker.swift in Sources */,
+				F6C21FE6478A18B66F69E2A2C4839E53 /* ConstraintMakerEditable.swift in Sources */,
+				48ECD5574F193CC9CA9D893C17B47971 /* ConstraintMakerExtendable.swift in Sources */,
+				D8158A5D34C9D7EDDA81F37E6C3CA194 /* ConstraintMakerFinalizable.swift in Sources */,
+				35C0C8AEAF2CBCD566D515DDC8944946 /* ConstraintMakerPriortizable.swift in Sources */,
+				4592D52736EDADAEFCA9C31495778371 /* ConstraintMakerRelatable.swift in Sources */,
+				3034CDFDE9988EE68ECE101B91F5DB27 /* ConstraintMultiplierTarget.swift in Sources */,
+				BF1A78F7D3BC8FF91000C012758EE934 /* ConstraintOffsetTarget.swift in Sources */,
+				D6C80413C88B28CF807615AC4957F2A1 /* ConstraintPriority.swift in Sources */,
+				6A7F86360FC99341865663F60A59404B /* ConstraintPriorityTarget.swift in Sources */,
+				2A3DC79D056334E1886E85A98BC0DC2E /* ConstraintRelatableTarget.swift in Sources */,
+				748B992F24CD5BB5CD0683DA3F32E3BD /* ConstraintRelation.swift in Sources */,
+				B2025A1BF84221316B692CFF95765210 /* ConstraintView+Extensions.swift in Sources */,
+				DFDC3BF23922AF079098F96EF1CD23E0 /* ConstraintView.swift in Sources */,
+				2530E0D23E968893AED7BB4088599B60 /* ConstraintViewDSL.swift in Sources */,
+				90ED612941A58B6AF4B5788D50839C6C /* Debugging.swift in Sources */,
+				339C67C641DCF9ED51356FB0FA14356F /* LayoutConstraint.swift in Sources */,
+				22345437C966B935458F1801DD89D950 /* LayoutConstraintItem.swift in Sources */,
+				114B08DEA0BB6F44277FC617B5C9DA97 /* SnapKit-dummy.m in Sources */,
+				3EFB550DDD900FC3150C658A46FB9C72 /* Typealiases.swift in Sources */,
+				CC3A61AB3F374E82299D10ADCD5D04F0 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B866391171AC9ECB19B027BBCA5803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E076285A2DFF5A2419261560E94E4A5 /* Pods-OTBusinessModular_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0DF5C7975F7C53FD956BAFF8719301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADDBF576531847560FE2181985AC6E7 /* UIViewController+WMPageController.m in Sources */,
+				D2B33A9E362A3F2D439C9DB87E9A0FD5 /* WMMenuItem.m in Sources */,
+				70C98C3FA735DBEC05C66230F9305CB6 /* WMMenuView.m in Sources */,
+				E79DB937F2EBA991A7EB823C4D12BA64 /* WMPageController-dummy.m in Sources */,
+				334AC2758F9F69D6176540C19C65C8B1 /* WMPageController.m in Sources */,
+				50435B828C5F2FD6EED9B971475F8883 /* WMProgressView.m in Sources */,
+				242127DD9BDDD1C9CDCBDC625D15ADA4 /* WMScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		36FAD53CA34E1FBCFF78FF357512A5EC /* PBXTargetDependency */ = {
+		01A3BD909A6AA78C840AEEC4C066C531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTUIKit;
+			target = DC4C8667CDC34ABCCCAE819C1B5635A8 /* OTUIKit */;
+			targetProxy = 948E2925C514F2B251761D33BC0060F9 /* PBXContainerItemProxy */;
+		};
+		11139C71EA31C66EABC5EFEA545856EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTBaseModular;
+			target = 9710BFE02DC30CC457C7650CA5464823 /* OTBaseModular */;
+			targetProxy = 79046D6EB026DB070ECB8B9D2991F8A6 /* PBXContainerItemProxy */;
+		};
+		229D02D3455524A171A89896DD31838D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTBaseModular;
+			target = 9710BFE02DC30CC457C7650CA5464823 /* OTBaseModular */;
+			targetProxy = A833E8B09C8ED4B3EFE96B8A4CEDEEDD /* PBXContainerItemProxy */;
+		};
+		2C55E0A91BD7CCEC28578112A41E1556 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OTBusinessModular;
-			target = 662A529969C7EDE378B70AE44E783F69 /* OTBusinessModular */;
-			targetProxy = 4B2577634FD1EC4027D1AF2C88A2B68A /* PBXContainerItemProxy */;
+			target = 00B0581FDC0A857D2C17E5328141D607 /* OTBusinessModular */;
+			targetProxy = F91221289B5C3AB922B91248FE369161 /* PBXContainerItemProxy */;
+		};
+		2F97DA3701314327E1B99B6A1717A6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = E79ABEF8EECC46F9CD4EB0E182471EE1 /* SnapKit */;
+			targetProxy = E5F79975881EEE8AD9B6BE32EB4AE228 /* PBXContainerItemProxy */;
+		};
+		39D339D39BCC1DF95C09950AA4A24B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */;
+			targetProxy = 75981BFE412BE58D8772B912C70F1288 /* PBXContainerItemProxy */;
+		};
+		4EDFC16AFFE13B90E2D734BF25ABEA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTExtension;
+			target = 08E1F8D4A72477D7B70BBF9BA61EEA57 /* OTExtension */;
+			targetProxy = 3CF87E006866218E8335A2005BB15A5A /* PBXContainerItemProxy */;
+		};
+		584A38E3ADCDDA448BDF6B6504DACEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTExtension;
+			target = 08E1F8D4A72477D7B70BBF9BA61EEA57 /* OTExtension */;
+			targetProxy = 5640DD135E323F92F98C3916B525E4B5 /* PBXContainerItemProxy */;
+		};
+		61A4E2B47F267BF8713717FC6944C877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = E79ABEF8EECC46F9CD4EB0E182471EE1 /* SnapKit */;
+			targetProxy = 998315001CD92242A00D6EB8548C917E /* PBXContainerItemProxy */;
+		};
+		6D057881264835D5B3BE5BFE84B8D7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */;
+			targetProxy = 1490C51066F5F82CB9121B41ABD060C3 /* PBXContainerItemProxy */;
+		};
+		71C5DB1FA37CDAFE77C5C8BA519DB9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTRoute;
+			target = A7034BD93E886F55E01DD1824AB7CC76 /* OTRoute */;
+			targetProxy = 7781A156C27A25387CDA563488D5F3C2 /* PBXContainerItemProxy */;
+		};
+		72EB34FBF82CFD1BC0A9F20FF71B752F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTRoute;
+			target = A7034BD93E886F55E01DD1824AB7CC76 /* OTRoute */;
+			targetProxy = 89BC7EDBD063AA49F6378083036C221B /* PBXContainerItemProxy */;
+		};
+		9604CEA37E7AA8DFD9F3A013725391C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */;
+			targetProxy = 0F44A18E9BC6CB56B56B74D182BCC259 /* PBXContainerItemProxy */;
+		};
+		B573A1F91B7B7CDFBB868DB2551D69F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */;
+			targetProxy = BDEE878F4CE226169A4A9E7906DE9D51 /* PBXContainerItemProxy */;
+		};
+		B6340A8348FF5B19D9B69048CF9B555E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPageController;
+			target = 3E1FBC4FCC2D7AEB9B7561D35D59ED05 /* WMPageController */;
+			targetProxy = 89D036EC06E8B42DECA2BE49A9408DA4 /* PBXContainerItemProxy */;
+		};
+		B6D683F4C38A90CC8E33FE764A97215F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTExtension;
+			target = 08E1F8D4A72477D7B70BBF9BA61EEA57 /* OTExtension */;
+			targetProxy = 80FB86D2E092F32FD47B540426EB211C /* PBXContainerItemProxy */;
+		};
+		C374947279067A843E2CDE992C78561C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OTExtension-OTExtension";
+			target = 9E21C0B6677E96FF0D62D9C36E597E21 /* OTExtension-OTExtension */;
+			targetProxy = 74749D96F1C723CE3055C5757819BE5D /* PBXContainerItemProxy */;
+		};
+		CA0D93135712E37ADA848E289F2FEE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 353FB57CC65CC9A8F042B23A46BD7FC8 /* OTMacro */;
+			targetProxy = B7821283759F0ED8B6E46794EEF43EF7 /* PBXContainerItemProxy */;
+		};
+		D225CBA81C7513B9FBF94A0ABF37E35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTExtension;
+			target = 08E1F8D4A72477D7B70BBF9BA61EEA57 /* OTExtension */;
+			targetProxy = 31423AAACA2AFD5772F9A912B4EE4711 /* PBXContainerItemProxy */;
+		};
+		DAD9E54D30444F1CC322312C795193DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = E79ABEF8EECC46F9CD4EB0E182471EE1 /* SnapKit */;
+			targetProxy = AE872296C01C49A3CB0EA7CB920E5556 /* PBXContainerItemProxy */;
+		};
+		E80BA7C953FCDEE431BE774A39F49480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPageController;
+			target = 3E1FBC4FCC2D7AEB9B7561D35D59ED05 /* WMPageController */;
+			targetProxy = DBE6BC2E200187BCBFE77B691944CD7A /* PBXContainerItemProxy */;
+		};
+		E86E93ABBE27A1F238C38A2034D6ACBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTUIKit;
+			target = DC4C8667CDC34ABCCCAE819C1B5635A8 /* OTUIKit */;
+			targetProxy = 157E81AD0D3E439E00C2A5EA42FB2AC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		E8354E540A2A0A637C8957B4CB087856 /* Root.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3826A0C9D88A7410DA33FE59A1A971A6 /* Root.strings */,
+			);
+			name = Root.strings;
+			path = OTExtension/Classes/language.bundle;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		107C0E4DEFD8133E004F626F05349705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8ED5DBACEA943400FFEC73E242C61A /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTExtension/OTExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTExtension/OTExtension.modulemap";
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2596FDD449B0440D227A6C3877F62BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB70E7AE26703341A0667F19ADFC754 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		273488F035BE079D26067F91FD61C4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFF005041F564C4F7D4AF6F977C7E94 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2776542F2FB36B9F3198B337F5A182C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A41263E1AD7BCA3A9169CDA4689A1B /* OTBaseModular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTBaseModular/OTBaseModular-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTBaseModular/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTBaseModular/OTBaseModular.modulemap";
+				PRODUCT_NAME = OTBaseModular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32AE5F2B2F716469579826E4790CA7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A1373F0BE1B4EAD17E623523EC2796 /* Pods-OTBusinessModular_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Pods-OTBusinessModular_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTBusinessModular_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46F6447490E15FF5D806F3AB774F0478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FC627A201FDE622C5080502287A19D /* OTRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTRoute/OTRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTRoute/OTRoute.modulemap";
+				PRODUCT_NAME = OTRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +1830,68 @@
 			};
 			name = Debug;
 		};
+		71FC9EC68550D83F862033E2B7410644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8ED5DBACEA943400FFEC73E242C61A /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTExtension/OTExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTExtension/OTExtension.modulemap";
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AB7D2FE8A3FB2A3D01D4724CBF7D326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B63ACE6DD090D1E5B0D83270B0E3A3 /* OTBusinessModular.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTBusinessModular/OTBusinessModular-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTBusinessModular/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTBusinessModular/OTBusinessModular.modulemap";
+				PRODUCT_NAME = OTBusinessModular;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7E4AA9FB2932CE7489BAC99208A9BAD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA62352AADCD637F85CB3EE297D80C5F /* Pods-OTBusinessModular_Tests.debug.xcconfig */;
@@ -448,6 +1923,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		81480F52DC05F3B51F1051B5D2CB9817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8ED5DBACEA943400FFEC73E242C61A /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OTExtension";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/ResourceBundle-OTExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -507,9 +1998,246 @@
 			};
 			name = Release;
 		};
-		AA8696659F01AD9E239756102CBAAFB3 /* Release */ = {
+		83644C3EBACC9166EC4FE1BAB3E972F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F824B5EE6C93019D67DB3E98B94FE5B4 /* OTBusinessModular.xcconfig */;
+			baseConfigurationReference = 6B8ED5DBACEA943400FFEC73E242C61A /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OTExtension";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/ResourceBundle-OTExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C7414973A9CB8600E3E8623A0541640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFF005041F564C4F7D4AF6F977C7E94 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94D5BE25B342E5194E167DE26EF49080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6DCD750D990A338AE00B8C3B075F6D /* OTUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTUIKit/OTUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTUIKit/OTUIKit.modulemap";
+				PRODUCT_NAME = OTUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		982BDEFF9D83C8AD286BB8B7C0C9CA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F6376B298718E3F5E5665D8E056CEC /* WMPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPageController/WMPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMPageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMPageController/WMPageController.modulemap";
+				PRODUCT_NAME = WMPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C877ECBF5D0E716B8A95A2ED94C0F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FC627A201FDE622C5080502287A19D /* OTRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTRoute/OTRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTRoute/OTRoute.modulemap";
+				PRODUCT_NAME = OTRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DFFA33B270022F0E5B40735DF47C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB70E7AE26703341A0667F19ADFC754 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2CB1689618D50969F9D250BB355B1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5F2BB6CC2406F81B635347D4877825 /* Pods-OTBusinessModular_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Pods-OTBusinessModular_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTBusinessModular_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C91DAB87418486C077876B54F293BCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6DCD750D990A338AE00B8C3B075F6D /* OTUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTUIKit/OTUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTUIKit/OTUIKit.modulemap";
+				PRODUCT_NAME = OTUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8E9FD8B0D7612E0032C00F2B3F51A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B63ACE6DD090D1E5B0D83270B0E3A3 /* OTBusinessModular.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,9 +2267,9 @@
 			};
 			name = Release;
 		};
-		BB9E763221D13A658D3643706BC7A51E /* Debug */ = {
+		EB71263BE659DF609A0DED75CAD5BB6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F824B5EE6C93019D67DB3E98B94FE5B4 /* OTBusinessModular.xcconfig */;
+			baseConfigurationReference = B2F6376B298718E3F5E5665D8E056CEC /* WMPageController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -552,27 +2280,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OTBusinessModular/OTBusinessModular-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OTBusinessModular/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPageController/WMPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMPageController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OTBusinessModular/OTBusinessModular.modulemap";
-				PRODUCT_NAME = OTBusinessModular;
+				MODULEMAP_FILE = "Target Support Files/WMPageController/WMPageController.modulemap";
+				PRODUCT_NAME = WMPageController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CE93393EACC17DFEF6747C3F1AF37B8C /* Debug */ = {
+		F72A50F49C0B92D831DB1AFB5C7CAC84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1A1373F0BE1B4EAD17E623523EC2796 /* Pods-OTBusinessModular_Example.debug.xcconfig */;
+			baseConfigurationReference = 72A41263E1AD7BCA3A9169CDA4689A1B /* OTBaseModular.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -583,54 +2311,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OTBaseModular/OTBaseModular-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTBaseModular/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Pods-OTBusinessModular_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OTBusinessModular_Example;
+				MODULEMAP_FILE = "Target Support Files/OTBaseModular/OTBaseModular.modulemap";
+				PRODUCT_NAME = OTBaseModular;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CE9B8481F6474E91F728878E87EA7687 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE5F2BB6CC2406F81B635347D4877825 /* Pods-OTBusinessModular_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OTBusinessModular_Example/Pods-OTBusinessModular_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OTBusinessModular_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,20 +2366,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		119FC0AF2365C8A4EC0CC955BAA9483A /* Build configuration list for PBXNativeTarget "Pods-OTBusinessModular_Example" */ = {
+		0474CD8A9FEFF527441EAE0A88EB100D /* Build configuration list for PBXNativeTarget "OTUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE93393EACC17DFEF6747C3F1AF37B8C /* Debug */,
-				CE9B8481F6474E91F728878E87EA7687 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12BFBAF4D286BF1C9C6C3D90CFD57B8C /* Build configuration list for PBXNativeTarget "OTBusinessModular" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB9E763221D13A658D3643706BC7A51E /* Debug */,
-				AA8696659F01AD9E239756102CBAAFB3 /* Release */,
+				94D5BE25B342E5194E167DE26EF49080 /* Debug */,
+				C91DAB87418486C077876B54F293BCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -706,6 +2389,87 @@
 			buildConfigurations = (
 				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
 				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511DCC711C6D46AB8A508807A26AAF9 /* Build configuration list for PBXNativeTarget "OTBusinessModular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB7D2FE8A3FB2A3D01D4724CBF7D326 /* Debug */,
+				DD8E9FD8B0D7612E0032C00F2B3F51A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D176B2B063F3B349E800828A7C0D914 /* Build configuration list for PBXNativeTarget "Pods-OTBusinessModular_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AE5F2B2F716469579826E4790CA7F8 /* Debug */,
+				C2CB1689618D50969F9D250BB355B1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4207D9AE8A2DB889314C6E56B03094E7 /* Build configuration list for PBXNativeTarget "OTBaseModular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2776542F2FB36B9F3198B337F5A182C3 /* Debug */,
+				F72A50F49C0B92D831DB1AFB5C7CAC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C987BD8B8ABF8B9565832DA619F82D /* Build configuration list for PBXNativeTarget "OTExtension-OTExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83644C3EBACC9166EC4FE1BAB3E972F8 /* Debug */,
+				81480F52DC05F3B51F1051B5D2CB9817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478F78C6A19F9207451BD1137F1FB8D5 /* Build configuration list for PBXNativeTarget "OTRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C877ECBF5D0E716B8A95A2ED94C0F56 /* Debug */,
+				46F6447490E15FF5D806F3AB774F0478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD0E76030D5467250EA21BE70834F2C /* Build configuration list for PBXNativeTarget "OTMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFFA33B270022F0E5B40735DF47C087 /* Debug */,
+				2596FDD449B0440D227A6C3877F62BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A951C9CAE2EB51C016362D25D48BDB1F /* Build configuration list for PBXNativeTarget "WMPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982BDEFF9D83C8AD286BB8B7C0C9CA8A /* Debug */,
+				EB71263BE659DF609A0DED75CAD5BB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F2C7DCA1CC1A21E19EF57EB22D611A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273488F035BE079D26067F91FD61C4B2 /* Debug */,
+				8C7414973A9CB8600E3E8623A0541640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C593A30835EBFA2DECB8866FB652131D /* Build configuration list for PBXNativeTarget "OTExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FC9EC68550D83F862033E2B7410644 /* Debug */,
+				107C0E4DEFD8133E004F626F05349705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

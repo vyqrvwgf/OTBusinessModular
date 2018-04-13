@@ -102,10 +102,24 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/OTBaseModular/OTBaseModular.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OTBusinessModular/OTBusinessModular.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTExtension/OTExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTMacro/OTMacro.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTRoute/OTRoute.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTUIKit/OTUIKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WMPageController/WMPageController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/OTBaseModular/OTBaseModular.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OTBusinessModular/OTBusinessModular.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTExtension/OTExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTMacro/OTMacro.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTRoute/OTRoute.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTUIKit/OTUIKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WMPageController/WMPageController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

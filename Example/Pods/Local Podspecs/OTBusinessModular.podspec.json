@@ -18,5 +18,25 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OTBusinessModular/Classes/**/*"
+  "source_files": "OTBusinessModular/Classes/**/*",
+  "dependencies": {
+    "WMPageController": [
+
+    ],
+    "OTUIKit": [
+
+    ],
+    "OTBaseModular": [
+
+    ],
+    "OTRoute": [
+
+    ],
+    "OTExtension": [
+
+    ],
+    "OTMacro": [
+
+    ]
+  }
 }

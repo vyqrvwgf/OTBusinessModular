@@ -1,5 +1,22 @@
 PODS:
-  - OTBusinessModular (0.1.0)
+  - OTBaseModular (0.1.4)
+  - OTBusinessModular (0.1.0):
+    - OTBaseModular
+    - OTExtension
+    - OTMacro
+    - OTRoute
+    - OTUIKit
+    - WMPageController
+  - OTExtension (0.2.4):
+    - OTMacro
+  - OTMacro (0.1.2)
+  - OTRoute (0.1.2):
+    - OTExtension
+  - OTUIKit (0.2.1):
+    - OTExtension
+    - SnapKit
+  - SnapKit (4.0.0)
+  - WMPageController (2.5.2)
 
 DEPENDENCIES:
   - OTBusinessModular (from `../`)
@@ -9,7 +26,14 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OTBusinessModular: 606dce55a864d0183f43d4e6a9e73e32a8793bd0
+  OTBaseModular: ccb7dfb17051072260cc4d93defd8563920976bb
+  OTBusinessModular: d534fec18b605328d588eadb665bcd4eb9c34377
+  OTExtension: 5a1821a30cb942a1168d3b5a0be979dab90c89fd
+  OTMacro: 98554f0b7f8b776f7bc51a08f1ada2d9374b6355
+  OTRoute: 5f1d19a3be33b990dd430e22e39f055bfdff31de
+  OTUIKit: 4c0c2f98f5a92054a0f72c8d4cd833b6549d5340
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
 PODFILE CHECKSUM: 06e08c7d219e19bbbf447e74f82b842616c078fe
 

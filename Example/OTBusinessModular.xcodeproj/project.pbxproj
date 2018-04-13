@@ -271,11 +271,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OTBusinessModular_Example/Pods-OTBusinessModular_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OTBaseModular/OTBaseModular.framework",
 				"${BUILT_PRODUCTS_DIR}/OTBusinessModular/OTBusinessModular.framework",
+				"${BUILT_PRODUCTS_DIR}/OTExtension/OTExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/OTMacro/OTMacro.framework",
+				"${BUILT_PRODUCTS_DIR}/OTRoute/OTRoute.framework",
+				"${BUILT_PRODUCTS_DIR}/OTUIKit/OTUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/WMPageController/WMPageController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTBaseModular.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTBusinessModular.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMacro.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTRoute.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WMPageController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
